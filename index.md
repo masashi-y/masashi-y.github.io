@@ -45,6 +45,7 @@ See [my github repository](https://github.com/masashi-y).
 *  2012: Kuwait Goverment Scholarship
 *  Mar. 2017: Exellence Award in 23rd Annual Meeting of NLP
 *  Jun. 2017: NAIST Excellent Student Scholarship
+*  Jun. 2017: JASSO Scholarship Full Exemption from Refund
 
 ## Skills
 
