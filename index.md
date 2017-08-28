@@ -15,7 +15,7 @@ Masashi Yoshikawa, Hiroyuki Shindo, and Yuji Matsumoto, EMNLP-2016
 [[pdf](./papers/dsfl_emnlp2016.pdf)]
 * _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
 Masashi Yoshikawa, Hiroshi Noji, and Yuji Matsumoto, ACL-2017
-[[pdf](./papers/ccg_acl2017.pdf)][[slide](./slides/acl_2017_slides.pdf)[[code](https://github.com/masashi-y/depccg)]
+[[pdf](./papers/ccg_acl2017.pdf)][[slide](./slides/acl_2017_slides.pdf)][[code](https://github.com/masashi-y/depccg)]
 
 ### Unrefereed
 * 「話し言葉の依存構造解析における音声認識誤りの影響と評価」  
