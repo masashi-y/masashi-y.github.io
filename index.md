@@ -39,13 +39,14 @@ See [my github repository](https://github.com/masashi-y).
 ## Experience
 * Sep. 2015: Intern at NTT Comunication Science Laboratory
 * Sep. 2016: Intern at STAIR Lab, Chiba Institute of Technology
-* Apr. - Jun. 2017: Affiliated Researcher at Center of Simulation Sciences in Ochanomizu University
+* Apr. - Jun., Oct. - now 2017: Affiliated Researcher at Center of Simulation Sciences in Ochanomizu University
 
 ## Awards and Funding
 *  2012: Kuwait Goverment Scholarship
 *  Mar. 2017: Exellence Award in 23rd Annual Meeting of NLP
 *  Jun. 2017: NAIST Excellent Student Scholarship
 *  Jun. 2017: JASSO Scholarship Full Exemption from Refund
+*  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2)
 
 ## Skills
 
@@ -56,7 +57,7 @@ See [my github repository](https://github.com/masashi-y).
 * Modern Standard Arabic (ok)
 
 ### Programming Languages
-* Love: Python (Cython), C++, Haskell
+* Love: [Python(Cython)](https://github.com/masashi-y/depccg), [C++](https://github.com/masashi-y/depccg), [Haskell](https://github.com/masashi-y/NeuralHaskellCCG), [OCaml](https://github.com/masashi-y/Camelthorn)
 * OK: Java, Scala, Julia, JavaScript
 * I type in Dvorak key conf and like Vim :)
 
