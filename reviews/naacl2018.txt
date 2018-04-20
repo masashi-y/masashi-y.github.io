@@ -1,0 +1,310 @@
+============================================================================ 
+NAACL HLT 2018 Reviews for Submission #833
+============================================================================ 
+
+Title: Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning
+Authors: Masashi Yoshikawa, Koji Mineshima, Hiroshi Noji and Daisuke Bekki
+
+============================================================================
+                            META-REVIEW
+============================================================================ 
+
+Comments: None
+============================================================================
+                            REVIEWER #1
+============================================================================
+                   Appropriateness (1-3): 3
+Impact of NLP Tasks / Applications (1-4): 1
+
+Description of Method
+---------------------------------------------------------------------------
+Description of the method:
+
+This paper describes a technique for enforcing syntactic/semantic consistency across multiple sentences in a CCG parser, with the goal of improving the task of recognising textual entailment. Dual decomposition is used to find the optimal CCG parses under to an A* per-sentence CCG parsing model and a global MRF consistency model which encourages the assignment of similar categories to similar words.
+
+Strengths:
+
+Weaknesses:
+---------------------------------------------------------------------------
+
+                 Impact of Methods (1-4): 3
+Impact of Theoretical / Algorithmic Results (1-4): 1
+
+Empirical Results: Hypotheses
+---------------------------------------------------------------------------
+Hypotheses?
+
+The paper hypothesises that using a global consistency model in a CCG parser will improve the downstream task of recognising textual entailment.
+
+Novelty of the hypotheses?
+
+Existing task and expected hypothesis.
+
+Substance of the hypotheses?
+---------------------------------------------------------------------------
+
+
+Empirical Results: Method
+---------------------------------------------------------------------------
+What is the method for testing the hypothesis/es?
+
+Existing tasks in English and Japanese.
+
+Strengths of the method and results?
+
+Method is comparable to previous results. The paper shows that using a global consistency model for the most part improves accuracy, precision, and recall in recognising textual entailment in English and in Japanese over a baseline model without consistency.
+
+Weaknesses of the method and results?
+
+While results in English improve on previous state of the art for ccg2lambda, results in Japanese lag behind it on both systems. However, adding global consistency does improve scores in both languages (but the baseline model is so far behind state of the art in Japanese that the improvement is still behind).
+
+I'm very interested in the impact of the consistency model on baseline CCG parsing, but no analysis of this was undertaken in the paper at all.
+
+There is very little analysis of the results due to the constrained space of a short paper and the need to describe the dual decomposition model. For instance:
+
+ - what types of errors are corrected by a global consistency model? some exemplar fixes are highlighted, but there is no investigation of overall trends
+ - what types of mistakes does using a global consistency model lead to?
+ - how does using a global consistency model affect parsing results? Is the parser worse at identifying syntactic structure overall, but better in terms of recognising entailment?
+ - what is the baseline parsing accuracy of the parser in this paper versus the parsers in the baseline systems compared against in the evaluation?
+
+The result tables are not clearly marked as to what is prior work, and what is implemented in this paper. Some deduction is required to understand this table.
+
+Overall, this is quite a complex model used for a very specific task, but the space required to describe the model and experiment takes away from being able to analyse interesting conclusions from the results, and the performance of the model for each intermediate task along the way.
+---------------------------------------------------------------------------
+
+       Impact of Empirical Results (1-4): 3
+        Impact of Data / Resources (1-4): 1
+       Impact of Software / System (1-4): 1
+Impact of Evaluation Method / Metric (1-4): 1
+      Impact of Other Contribution (1-4): 1
+
+Contributions Summary
+---------------------------------------------------------------------------
+Contribution 1:
+
+A method of ensuring global category consistency via dual decomposition in a CCG parser
+
+Contribution 2:
+
+An evaluation of the effectiveness of the global consistency model in a downstream task: recognising textual entailment.
+
+Contribution 3:
+---------------------------------------------------------------------------
+
+                       Originality (1-5): 3
+             Soundness/Correctness (1-5): 4
+                         Substance (1-5): 2
+                     Replicability (1-5): 3
+            Handling of Data / Resources: N/A
+          Handling of Human Participants: N/A
+             Meaningful Comparison (1-5): 5
+            Related Work: ACL Guidelines: Yes
+
+Discussion of Related Work
+---------------------------------------------------------------------------
+Strengths:
+
+Weaknesses:
+
+Missing references:
+
+CCG has been used for 
+
+Comments on adherence to the ACL guidelines for authors:
+---------------------------------------------------------------------------
+
+                       Readability (1-5): 4
+                        NAACL Guidelines: Yes
+                          ACL Guidelines: Yes
+                     Overall Score (1-6): 4
+               Reviewer Confidence (1-5): 4
+                     Presentation Format: Poster
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+                   Appropriateness (1-3): 3
+Impact of NLP Tasks / Applications (1-4): 1
+
+Description of Method
+---------------------------------------------------------------------------
+Description of the method:
+The paper applies a dual decomposition method to CCG parsing in order to encourage consistent analyses in CCG derivations. An impact of resulted CCG parsing model is checked wrt Natural Language Inference (NLI).
+
+Strengths: 
+(1) Implementing a consistency constraint via Markov random fields (MRFs) over CCG parsing model.
+(2) Testing consistent syntactic parsing from NLI perspective.   
+
+Weaknesses:
+(1) Lack of evaluation of the consistent CCG model against CCGbanks.
+---------------------------------------------------------------------------
+
+                 Impact of Methods (1-4): 3
+Impact of Theoretical / Algorithmic Results (1-4): 1
+
+Empirical Results: Hypotheses
+---------------------------------------------------------------------------
+Hypotheses:
+Consistent CCG derivations should contribute to the performance of logic-based NLI systems as the latter ones suffer if the same expressions are syntactically analyzed in different ways.  
+
+Novelty of the hypotheses?
+Though the hypothesis is intuitive, providing empirical results for it is novel to th best of my knowledge. 
+
+Substance of the hypotheses?
+The hypothesis is challenged in by using two RTE datasets and two state-of-the-art logic-based systems.
+---------------------------------------------------------------------------
+
+
+Empirical Results: Method
+---------------------------------------------------------------------------
+What is the method for testing the hypothesis/es?
+It is checked whether the performance of state-of-the-art logic-based systems on certain RTE datasets are improved when they are paired with consistent CCG parsing.
+
+Strengths of the method and results?
+(1) Given that the chosen NLI systems already perform well on the chosen datasets, any improvement in the systems' performance serves as a good evidence for the hypothesis.
+(2) The experiments are reproducible as it employs publicly available RTE data and NLI systems.    
+
+Weaknesses of the method and results?
+(1) Using only moderately improved performance of NLI systems as an evidence for the hypothesis. 
+(3) No direct evaluation of consistent CCG parsing.
+---------------------------------------------------------------------------
+
+       Impact of Empirical Results (1-4): 3
+        Impact of Data / Resources (1-4): 1
+
+Description of Software / Systems
+---------------------------------------------------------------------------
+Description of the software / system:
+The authors constraint the existing CCG parser with global consistency constraint and obtain a new CCG parsing model.  
+
+Strengths:
+(1) They showed that the new model improves performance of the NLI systems on certain RTE datasets. 
+
+Weaknesses:
+(1) It is not clear how useful is the obtained CCG model outside this case study.
+---------------------------------------------------------------------------
+
+       Impact of Software / System (1-4): 3
+Impact of Evaluation Method / Metric (1-4): 1
+      Impact of Other Contribution (1-4): 1
+
+Contributions Summary
+---------------------------------------------------------------------------
+Contribution 1: Implementing global MRF model of Rush et al. (2012) for a CCG parsing
+
+Contribution 2: Finding an impact a new consistent parsing model has on the performance of state-of-the-art logic-based NLI systems.
+
+Contribution 3: Empirical evidence for the hypothesis that consistent syntactic analysis contributes to logic-based NLI systems' performance
+---------------------------------------------------------------------------
+
+                       Originality (1-5): 3
+             Soundness/Correctness (1-5): 4
+                         Substance (1-5): 4
+                     Replicability (1-5): 5
+            Handling of Data / Resources: Yes
+          Handling of Human Participants: N/A
+             Meaningful Comparison (1-5): 4
+            Related Work: ACL Guidelines: Yes
+
+Discussion of Related Work
+---------------------------------------------------------------------------
+The paper could benefit from comparing the new consistent model to other CCG parsing models.
+Given that the research is a case study about logic-based NLI systems and specifics of CCG parsing, the current references represent the related work well.
+---------------------------------------------------------------------------
+
+                       Readability (1-5): 4
+                        NAACL Guidelines: Yes
+                          ACL Guidelines: Yes
+                     Overall Score (1-6): 4
+               Reviewer Confidence (1-5): 5
+                     Presentation Format: Poster
+
+Questions for Authors
+---------------------------------------------------------------------------
+........Presentation.........
+044: (Martinez-Gomez et al. 2017) and (Abziaidze, 2017) are characterized in similar way while, I guess, the latter adopts a different approach (of natural logic) rather than assigning lambda terms to words and computing the final semantics as it is shown in Figure 1.
+108: inconsistent logical forms --> wrong logical forms. "Inconsistent" in the context of logic has different meaning.
+In 2.1 it is not clear whether an MRF graph includes only training data or sentences from the test data too. There is no mention of training data in the the method section at all.
+244: Lagrangian multiplier comes out of the blue.
+261: nothing is mentioned about rate parameter \alpha.
+Section 3 lacks introduction of SICK and JSeM datasets and motivation for choosing them.
+317: The motivation behind a bigram context needs explanation.
+327: all both --> both
+329: What is the reason behind "higher recall and lower precision"? Is that so important to highlight? Maybe precision and recall numbers are not at all necessary if no further comments are made on them.
+332: In the revised version, it is advisable to have concrete examples rather than the sentence IDs.
+337: S_ng\NP & N --> N & S_ng\NP
+341: The example 3335 is not convincing. I think S_pss\NP category is fine in this context. With this category, the NLI systems need to solve this problem anyway. What if there was a sentence "... chop which is breaded by her". A good example would be a category change for a preposition, which makes PP attachment consistent.
+368: We are talking about rule-based systems. So, I suspect, it lacks rules for a new parsing model rather than over-fitting Jigg's derivations. 
+393: Examples of wrong category changes needs to be mentioned. Section 3.2 is titled 'Error analysis' but there is no mention of concrete errors. 
+
+.......Research Questions.......
+* Apart from checking the performance of the NLI systems, it is very interesting and recommended to compare the new parsing model to the old one (Yoshikawa et al, 2017) or other CCG parsers. 
+Note that Rush et al. used the consistency constraints to improve performance of parsing.
+* Why not using a local MRF model--the model that forces consistency only for each RTE pair rather than for the whole datatset?
+* The authors also could choose the FraCaS data to support the hypothesis.
+* The paper mentions no direct quantitative evaluation of consistent parsing. I suggest that they evaluate consistency of the new parsing model over 4+ grams occurring multiple times in SICK. 
+* Footnote 5, mentions details that show that the parsing model was specially tuned for ccg2lambda (for verbs). What was the reason for it?
+If ccg2lambda and LangPro were fed with different CCG derivations, then this should be mentioned explicitly, possibly in Table 1. Otherwise the table gives wrong intuition.
+* Why MRF makes 3.5% boost for ccg2lambda on JSeM compared to only 1% boost on SICK?
+* MRF makes a little improvement (<.5%) for LangPro. According to (Abziaidze, 2017), LangPro supports an optional term aligner which might boost accuracy significantly. Was this option used in the experiment? It might go well with MRF.
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+                   Appropriateness (1-3): 3
+Impact of NLP Tasks / Applications (1-4): 1
+
+Description of Method
+---------------------------------------------------------------------------
+Description of the method:
+
+This paper uses an existing method of encouraging inter-sentence parsing consistencies to couple the CCG categories used to parse both the text and hypothesis in an entailment task.  The decoding problem is now one of finding the locally optimal derivation under a set of predefined MRF constraints on the interpretation of coupled (equivalent) words. This is performed using dual decomposition and it can be done efficiently. The predefined constraints encourage coupled categories to be equivalent, equivalent under feature value removal, ignored in the optimization, or different -- in that order. The definition of category equality is extended to couple distinct categories that are known to be consistently aligned across contexts.
+
+Strengths:
+
+CCG approaches to RTE are severely hamstrung by the brittleness of existing CCG parsers. This paper introduces a principled method of encouraging parse consistency in contexts where it is likely that words should yield similar interpretations. On two separate datasets, in English and Japanese, the modifications yield small but consistent gains over baselines that do not contain the modification.
+
+Weaknesses:
+
+It is not clear how significant the gains are in tables 1 and 2, especially since similar or better gains can be achieved by using better existing CCG parsers. I commend the authors for including the results with EasyCCG and jigg but I would like to see more discussion of the different error families solved by those methods wrt the approach presented in this paper. In particular, is it the case that the jigg templates were built by looking at the test data? Or are the depccg templates deficient.  
+
+This method might be particularly suited to the RTE task where it is particularly likely that the same word will yield the same interpretation in the text and hyptothesis, due to the manner in which the data are created. I would like to see an investigation of cases where different interpretations are correct, if such cases exist, to see if the local parsing models can overpower the inter-sentence constraints in these cases.
+---------------------------------------------------------------------------
+
+                 Impact of Methods (1-4): 3
+Impact of Theoretical / Algorithmic Results (1-4): 1
+       Impact of Empirical Results (1-4): 1
+        Impact of Data / Resources (1-4): 1
+       Impact of Software / System (1-4): 1
+Impact of Evaluation Method / Metric (1-4): 1
+      Impact of Other Contribution (1-4): 1
+
+Contributions Summary
+---------------------------------------------------------------------------
+Contribution 1:
+
+This paper introduces a well motivated and correct method of encouraging inter-parse consistencies that should be expected in the RTE task, and the lack of which are a major bottleneck to symbolic RTE approaches.
+
+Contribution 2:
+
+The approach is tested on two separate languages and shows a modest but consistent improvement over a comparable baseline.
+---------------------------------------------------------------------------
+
+                       Originality (1-5): 3
+             Soundness/Correctness (1-5): 4
+                         Substance (1-5): 3
+                     Replicability (1-5): 4
+            Handling of Data / Resources: N/A
+          Handling of Human Participants: N/A
+             Meaningful Comparison (1-5): 4
+            Related Work: ACL Guidelines: Yes
+                       Readability (1-5): 4
+                        NAACL Guidelines: Yes
+                          ACL Guidelines: Yes
+                     Overall Score (1-6): 4
+               Reviewer Confidence (1-5): 3
+                     Presentation Format: Poster

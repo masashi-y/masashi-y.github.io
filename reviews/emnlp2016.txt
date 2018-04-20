@@ -1,0 +1,169 @@
+============================================================================ 
+EMNLP 2016 Reviews for Submission #170
+============================================================================ 
+
+Title: Joint Transition-based Dependency Parsing and Disfluency Detection for Automatic Speech Recognition Texts
+
+Authors: Masashi Yoshikawa, Hiroyuki Shindo and Yuji Matsumoto
+============================================================================
+                            REVIEWER #1
+============================================================================ 
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         Appropriateness: 5
+                                 Clarity: 3
+                             Originality: 3
+                 Soundness / Correctness: 4
+                   Meaningful Comparison: 3
+                               Substance: 3
+               Impact of Ideas / Results: 3
+         Impact of Accompanying Software: 1
+Impact of Accompanying Dataset / Resource: 3
+                          Recommendation: 3
+                     Reviewer Confidence: 4
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper describes an approach to handle disfluencies and ASR errors in
+dependency parsing.  The main contribution is to include three new actions
+(Edit, LeftArcError and RightArcError) to the parser.
+
+In general the paper is well motivated.  However, there are elements of the
+work that could benefit from more detail in the description.  I believe the
+work is sound, but in places it is missing useful details for comparison.  
+
+1. it would be useful to clearly enumerate the contributions of this work. 
+Where does it differ from previous approaches to this task?
+
+2. Specifically what features are used.  In both cases where features are
+described, hedges are used "The feature set is _mainly_ based on (Honnibal and
+Johnson, 2014)"  and "We use WCN-based features _such as_ the mean and standard
+deviation of slot arc posteriors".  For reproducabilty and for understanding
+this work, the features used should be concretely described.
+
+3. What data was the ASR system trained on?  I believe it's Fischer.  But if
+it's SWB some care would need to be taken when assessing its performance on
+this data. (Regardless, its training material should be described in this
+paper.)
+
+4. Throughout the paper this approach is implicitly and explicitly compared to
+Honnibal and Johnson 2014.  Given that, it is rather surprising that the
+ArcEager parser is used as a point of comparison.  A more informative
+comparison would be to the Honnibal and Johnson approach.  It makes it very
+difficult to assess the impact of this approach without such a comparison.
+
+The combination of a vague description of what was done and a limited
+comparison to other approaches to this task make it difficult to be
+enthusiastic about this paper, despite thinking that there is (probably) good
+work underlying it.
+
+============================================================================
+                            REVIEWER #2
+============================================================================ 
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         Appropriateness: 5
+                                 Clarity: 4
+                             Originality: 4
+                 Soundness / Correctness: 5
+                   Meaningful Comparison: 5
+                               Substance: 4
+               Impact of Ideas / Results: 4
+         Impact of Accompanying Software: 1
+Impact of Accompanying Dataset / Resource: 4
+                          Recommendation: 4
+                     Reviewer Confidence: 4
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper presents a new transition-based dependency parsing approach to
+address text with disfluencies.  The authors specifically focus on noisy
+text that is generated from an ASR system.  The paper offers two main
+contributions: a new model - which incorporates additional action types
+which are designed specifically to identify disfluency "errors,"  and a
+dataset which is generated over ASR output of the disfluent data.
+
+The paper is relatively easy to understand, leaving open only a couple of
+questions about the approach.  
+
+Regarding training, are the backoff scores used during training as well as
+at inference, or is this done only at inference?  If the models are trained
+with a typical on-line learning algorithm (MIRA, structured perceptron,
+arrow, etc.) you can apply the score during training and learning.
+
+The description of the WCN features is very brief.  They offer a good bit of
+improvement for disfluency prediction (but actually hurt dependency
+accuracy).  The details of these features make it difficult to understand
+exactly what was used in these models.
+
+References are not correct in this paper - specifically in section 3 and
+section 4.2.  You cannot cite a paper by Zhang and Nivre as Zhang.  It is
+clear in the Bibliography, but the references throughout the text are
+incorrect and must be fixed.
+
+============================================================================
+                            REVIEWER #3
+============================================================================ 
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+
+                         Appropriateness: 5
+                                 Clarity: 5
+                             Originality: 4
+                 Soundness / Correctness: 4
+                   Meaningful Comparison: 3
+                               Substance: 4
+               Impact of Ideas / Results: 4
+         Impact of Accompanying Software: 1
+Impact of Accompanying Dataset / Resource: 3
+                          Recommendation: 4
+                     Reviewer Confidence: 3
+
+
+---------------------------------------------------------------------------
+Comments
+---------------------------------------------------------------------------
+
+This paper presents an approach for joint dependency parsing with disfluency
+detection.  The methodology is clearly described and the results based on
+different train-test settings are informative.        The main deficiency with the
+paper is the lack of connection with previous disfluency detection research
+that uses ASR output.  In the Introduction, the authors state the following: 
+"However, the authors assume that the input texts to parse are transcribed by
+human annotators, which, in practice, is unrealistic."        This applies to the
+references that they provided, and is generally true for researchers who have
+focused on the end task of dependency parsing.        However, many speech
+researchers have conducted disfluency detection research based on ASR output
+using a combination of lexical and signal-based features.  This body of
+research is omitted by the study and should at least be mentioned, for example,
+Liu, Shriberg & Stolcke (2003).
+
+For readers who aren't familiar with the annotated Switchboard corpus, it would
+be helpful to briefly mention the types of disfluencies that are contained in
+the corpus (filled pauses, repetitions, false starts).
+
+I was not able to find a description of the columns contained in the attached
+data sets, which limited their usefulness.
+
+References
+
+Liu, Y., Shriberg, E. & Stolcke, A. (2003). Automatic Disfluency Identification
+in Conversational Speech Using Multiple Knowledge Sources. In Proceedings of
+Interspeech, pp. 957-960.
