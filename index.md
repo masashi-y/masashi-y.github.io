@@ -11,7 +11,7 @@ Ph.D. student at
 ## Publications
 ### Refereed
 * _Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning_  
-<u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, NAACL-2018 (to appear)
+<u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, NAACL-2018 [[pdf](./papers/ccg_naacl2018.pdf)]
 * _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
 <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, ACL-2017
 [[pdf](./papers/ccg_acl2017.pdf)][[code](https://github.com/masashi-y/depccg)]
@@ -21,14 +21,14 @@ Ph.D. student at
 
 ### Unrefereed
 * 「知識ベース補完を用いた高階論理推論のための自動公理生成」  
-<u>吉川将司</u>, 峯島宏次, 能地宏, 戸次大介 言語処理学会第24回年次大会
+<u>吉川将司</u>, 峯島宏次, 能地宏, 戸次大介 言語処理学会第24回年次大会 [[pdf](./papers/kbc_nlp2018.pdf)]
 * 「RNN系列変換モデルを用いた高階論理式からの文生成」  
-馬目華奈, 谷中瞳, <u>吉川将司</u>, 峯島宏次, 戸次大介 言語処理学会第24回年次大会
+馬目華奈, 谷中瞳, <u>吉川将司</u>, 峯島宏次, 戸次大介 言語処理学会第24回年次大会 [[pdf](./papers/encdec_nlp2018.pdf)]
 * 「係り受け構造とスーパータグの同時予測による A\* CCG解析」  
 <u>吉川 将司</u>, 能地 宏, 松本 裕治, 情報処理学会 第231回自然言語処理研究会
-* 「係り受け構造との同時予測によるA\* CCG解析」(__優秀賞__)  
+* 「係り受け構造との同時予測によるA\* CCG解析」(__優秀賞__) [[pdf](./papers/ccg_nlp2017.pdf)]  
 <u>吉川将司</u>, 能地宏, 松本裕治 言語処理学会第23回年次大会
-* 「話し言葉の依存構造解析における音声認識誤りの影響と評価」  
+* 「話し言葉の依存構造解析における音声認識誤りの影響と評価」[[pdf](./papers/dep_nlp2017.pdf)]  
 <u>吉川将司</u>, 進藤裕之, 松本裕治, 言語処理学会第22回年次大会
 
 ## Software
