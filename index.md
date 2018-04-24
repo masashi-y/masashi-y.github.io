@@ -52,7 +52,7 @@ See [my github repository](https://github.com/masashi-y).
 *  Mar. 2017: Exellence Award in 23rd Annual Meeting of NLP
 *  Jun. 2017: NAIST Excellent Student Scholarship
 *  Jun. 2017: JASSO Scholarship Full Exemption from Refund
-*  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2)
+*  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2) [[proposal](./misc/03_dc_naiyo.pdf)]
 
 ## Skills
 
