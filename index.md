@@ -11,7 +11,7 @@ Ph.D. student at
 ## Publications
 ### Refereed
 * _Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning_  
-<u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, NAACL-2018 [[pdf](./papers/ccg_naacl2018.pdf)][[reviews](./reviews/naacl2018.txt)]
+<u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, NAACL-2018 [[pdf](./papers/ccg_naacl2018.pdf)][[poster](./posters/mrf_poster.pdf)][[reviews](./reviews/naacl2018.txt)]
 * _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
 <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, ACL-2017
 [[pdf](./papers/ccg_acl2017.pdf)][[code](https://github.com/masashi-y/depccg)][[reviews](./reviews/acl2017.txt)]
