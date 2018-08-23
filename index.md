@@ -53,6 +53,7 @@ See [my github repository](https://github.com/masashi-y).
 *  Jun. 2017: NAIST Excellent Student Scholarship
 *  Jun. 2017: JASSO Scholarship Full Exemption from Refund
 *  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2) [[proposal](./misc/03_dc_naiyo.pdf)]
+*  Aug. 2018 - Mar. 2019: AIP Challenge Research Funding
 
 ## Skills
 
