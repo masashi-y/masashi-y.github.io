@@ -10,32 +10,39 @@ Ph.D. student at
 
 ## Publications
 ### Refereed
+
+* _Combining Axiom Injection and Knowledge Base Completion for Efficient Natural Language Inference_,  
+  <u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, AAAI-2019, to appear
 * _Neural sentence generation from formal semantics_,  
-Kana Manome, <u>Masashi Yoshikawa</u>, Hitomi Yanaka, Pascual Martínez-Gómez, Koji Mineshima and Daisuke Bekki, INLG-2018, to appear
+  Kana Manome, <u>Masashi Yoshikawa</u>, Hitomi Yanaka, Pascual Martínez-Gómez, Koji Mineshima and Daisuke Bekki, INLG-2018, to appear
 * _Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning_  
-<u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, NAACL-2018 [[pdf](./papers/ccg_naacl2018.pdf)][[poster](./posters/mrf_poster.pdf)][[reviews](./reviews/naacl2018.txt)]
+  <u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, NAACL-2018 [[pdf](./papers/ccg_naacl2018.pdf)][[poster](./posters/mrf_poster.pdf)][[reviews](./reviews/naacl2018.txt)]
 * _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
-<u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, ACL-2017
-[[pdf](./papers/ccg_acl2017.pdf)][[code](https://github.com/masashi-y/depccg)][[reviews](./reviews/acl2017.txt)]
+  <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, ACL-2017
+  [[pdf](./papers/ccg_acl2017.pdf)][[code](https://github.com/masashi-y/depccg)][[reviews](./reviews/acl2017.txt)]
 * _Joint Transition-based Dependency Parsing and Disfluency Detection for Automatic Speech Recognition Texts_  
-<u>Masashi Yoshikawa</u>, Hiroyuki Shindo, and Yuji Matsumoto, EMNLP-2016
-[[pdf](./papers/dsfl_emnlp2016.pdf)][[reviews](./reviews/emnlp2016.txt)]
+  <u>Masashi Yoshikawa</u>, Hiroyuki Shindo, and Yuji Matsumoto, EMNLP-2016
+  [[pdf](./papers/dsfl_emnlp2016.pdf)][[reviews](./reviews/emnlp2016.txt)]
 
 ### Unrefereed
 * 「安価な統語情報からの変換モデルの学習によるCCG解析ドメイン適応」  
-<u>吉川将司</u>, 能地宏, 峯島宏次, 戸次大介 NLP若手の会第13回シンポジウム  
+  <u>吉川将司</u>, 能地宏, 峯島宏次, 戸次大介 NLP若手の会第13回シンポジウム  
 * 「形式意味論に基づくニューラル文生成」  
-馬目華奈, <u>吉川将司</u>, 谷中瞳, 峯島浩次, 戸次大介 NLP若手の会第13回シンポジウム  
+  馬目華奈, <u>吉川将司</u>, 谷中瞳, 峯島浩次, 戸次大介 NLP若手の会第13回シンポジウム  
 * 「知識ベース補完を用いた高階論理推論のための自動公理生成」  
-<u>吉川将司</u>, 峯島宏次, 能地宏, 戸次大介 言語処理学会第24回年次大会 [[pdf](./papers/kbc_nlp2018.pdf)]  
+  <u>吉川将司</u>, 峯島宏次, 能地宏, 戸次大介 言語処理学会第24回年次大会 [[pdf](./papers/kbc_nlp2018.pdf)]  
 * 「RNN系列変換モデルを用いた高階論理式からの文生成」  
-馬目華奈, 谷中瞳, <u>吉川将司</u>, 峯島宏次, 戸次大介 言語処理学会第24回年次大会 [[pdf](./papers/encdec_nlp2018.pdf)]  
+  馬目華奈, 谷中瞳, <u>吉川将司</u>, 峯島宏次, 戸次大介 言語処理学会第24回年次大会 [[pdf](./papers/encdec_nlp2018.pdf)]  
 * 「係り受け構造とスーパータグの同時予測による A\* CCG解析」  
-<u>吉川 将司</u>, 能地 宏, 松本 裕治, 情報処理学会 第231回自然言語処理研究会
+  <u>吉川 将司</u>, 能地 宏, 松本 裕治, 情報処理学会 第231回自然言語処理研究会
 * 「係り受け構造との同時予測によるA\* CCG解析」(__優秀賞__) [[pdf](./papers/ccg_nlp2017.pdf)]  
-<u>吉川将司</u>, 能地宏, 松本裕治 言語処理学会第23回年次大会
+  <u>吉川将司</u>, 能地宏, 松本裕治 言語処理学会第23回年次大会
 * 「話し言葉の依存構造解析における音声認識誤りの影響と評価」[[pdf](./papers/dep_nlp2017.pdf)]  
-<u>吉川将司</u>, 進藤裕之, 松本裕治, 言語処理学会第22回年次大会
+  <u>吉川将司</u>, 進藤裕之, 松本裕治, 言語処理学会第22回年次大会
+
+### Talk
+
+* 「深層学習とA*アルゴリズムによる高速なCCG解析」, TokyoCL(2018/9/28) [[slide](slides/tokyo_cl.pdf)]
 
 ## Software
 See [my github repository](https://github.com/masashi-y).
