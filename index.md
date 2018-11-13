@@ -14,7 +14,7 @@ Ph.D. student at
 * _Combining Axiom Injection and Knowledge Base Completion for Efficient Natural Language Inference_,  
   <u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, AAAI-2019, to appear
 * _Neural sentence generation from formal semantics_,  
-  Kana Manome, <u>Masashi Yoshikawa</u>, Hitomi Yanaka, Pascual Martínez-Gómez, Koji Mineshima and Daisuke Bekki, INLG-2018, to appear
+  Kana Manome, <u>Masashi Yoshikawa</u>, Hitomi Yanaka, Pascual Martínez-Gómez, Koji Mineshima and Daisuke Bekki, INLG-2018, [[pdf](./papers/seq2seq_inlg2018.pdf)]
 * _Consistent CCG Parsing over Multiple Sentences for Improved Logical Reasoning_  
   <u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, NAACL-2018 [[pdf](./papers/ccg_naacl2018.pdf)][[poster](./posters/mrf_poster.pdf)][[reviews](./reviews/naacl2018.txt)]
 * _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
