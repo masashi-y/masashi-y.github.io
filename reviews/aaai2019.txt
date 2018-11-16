@@ -1,0 +1,104 @@
+META-REVIEWER #1
+META-REVIEW QUESTIONS
+1. Detailed Comments
+This paper presents a new approach to use Knowledge Base Completion (KBC) for Recognizing Textual Entailment (RTE). The main advantage, as claimed by the authors, is a significant speedup without loss of performance. 
+
+It is interesting to see machine learning methods such as KBC are used and compared with logic methods. 
+
+For more readability, it would be better to highlight the best performance in tables.
+
+
+Reviewer #1
+Questions
+1. [Summary] Please summarize the main claims/contributions of the paper in your own words.
+The paper aims to improve upon solving lexical natural language inference problems on a large scale by introducing knowledge base completion(KBC)-based axiom injection to reduce processing time when incorporating external resources. The authors evaluate performance (f1-score and processing time) on the SICK dataset and get competitive results in f1-score, but improve significantly on processing time. Additionally, they construct their lexical toy LexSICK dataset to demonstrate how KBC allows them to explore latent knowledge, which they back up with good examples.
+2. [Relevance] Is this paper relevant to an AI audience?
+Relevant to researchers in subareas only
+3. [Significance] Are the results significant?
+Moderately significant
+4. [Novelty] Are the problems or approaches novel?
+Somewhat novel or somewhat incremental
+5. [Soundness] Is the paper technically sound?
+Has minor errors
+6. [Evaluation] Are claims well-supported by theoretical analysis or experimental results?
+Somewhat weak
+7. [Clarity] Is the paper well-organized and clearly written?
+Excellent
+8. [Detailed Comments] Please elaborate on your assessments and provide constructive feedback.
+• A comparison against some non-logic based NLI models on the SICK dataset would give a broader picture of the importance of the problem of performance
+
+• Experimenting with more external resources would strengthen the argument of improving scalability, but also investigating what happens with false positives when using more external resources. 
+
+• Results on the toy dataset seem to provide an interesting basis for quantitative analysis of latent knowledge, but sample size restrictions aren't a valid basis for making quantitative conclusions.
+
+Some typos:
+• 1., paragraph 5: 'We show that'
+• 1., parapraph 5: 'lossing' => 'losing'
+• 5.2, paragraph 2: 'follow' => 'follows'
+9. [QUESTIONS FOR THE AUTHORS] Please provide questions for authors to address during the author feedback period.
+• Why is only the trial part used to asses processing speed?
+
+• In 4.1. one of the problem seems to be having too much information in the knowledge base (disease names). But, isn't this always the (expected) case? 
+
+• It would be useful to have some extra hyperparameters for ComplEx settings, such as layer dimensions, batch sizes
+
+• One of the biggest issues with the model proposed seem to be false positives. Are there any suggestions on how to handle invalid latent knowledge?
+
+• Why doesn't the LexSICK dataset have any 'unknown'-labeled examples?
+10. [OVERALL SCORE]
+6 - Marginally above threshold
+11. [CONFIDENCE]
+Reviewer is knowledgeable in the area
+Reviewer #2
+Questions
+1. [Summary] Please summarize the main claims/contributions of the paper in your own words.
+The authors propose a recognizing textual entailment (RTE) model based on a logic theorem prover to decide a relation between a pair of sentences. The authors tackle the issue of axiom generation needed by a theorem prover, which is expensive in computational terms. The axiom generation is carried out by framing the problem as Knowledge Based Completion (KBC). The model uses information from hand crafted knowledge bases such as Wordnet and VerbOcean. The authors performed different types of evaluations for KBC and RTE. The findings show that the use of KBC for axiom generation improves in terms of evaluation metrics and processing time. The findings for all evaluations are presented clear and in extend.
+2. [Relevance] Is this paper relevant to an AI audience?
+Relevant to researchers in subareas only
+3. [Significance] Are the results significant?
+Significant
+4. [Novelty] Are the problems or approaches novel?
+Novel
+5. [Soundness] Is the paper technically sound?
+Technically sound
+6. [Evaluation] Are claims well-supported by theoretical analysis or experimental results?
+Sufficient
+7. [Clarity] Is the paper well-organized and clearly written?
+Good
+8. [Detailed Comments] Please elaborate on your assessments and provide constructive feedback.
+The authors use an unsupervised logic based model for RTE. The main contribution is focused on the issue of axiom generation present in theorem provers. The findings show that the model improves in terms of evaluation metrics and computational cost. The related work is presented in extend, whoever, the KBC part can the further elaborated with the architectural details and hyper-parameters. 
+A possible drawback is the use of CCG parsing for the logical representation of the input, a further contribution could be the inclusion of an error analysis of the CCG parse trees over the RTE task.
+9. [QUESTIONS FOR THE AUTHORS] Please provide questions for authors to address during the author feedback period.
+For future work the authors can test their models against other logic based methods for RTE that use the theorem provers (e.g. Nutcracker, Is there a place for logic in recognizing textual entailment? Johan Bos) or methods that emulate theorem provers like (BIUTEE – Bar Ilan University Textual Entailment Engine) based on edit distance.
+Could the authors elaborate on the chose of entailment relations and maybe draw statistics of the presenrce of those relations in the SICK test sets, as well as the difficult SICK test set. Maybe a study of the parse trees and the entailment relations could shed some light on where the proposed model is failing, specifically in the difficult SICK.
+10. [OVERALL SCORE]
+8 - Accept (Top 50% accepted papers (est.))
+11. [CONFIDENCE]
+Reviewer is knowledgeable in the area
+Reviewer #3
+Questions
+1. [Summary] Please summarize the main claims/contributions of the paper in your own words.
+For the purpose of efficiency, this paper proposes to replace search-based axiom injection with KBC in logic-based RTE.
+2. [Relevance] Is this paper relevant to an AI audience?
+Relevant to researchers in subareas only
+3. [Significance] Are the results significant?
+Significant
+4. [Novelty] Are the problems or approaches novel?
+Novel
+5. [Soundness] Is the paper technically sound?
+Technically sound
+6. [Evaluation] Are claims well-supported by theoretical analysis or experimental results?
+Sufficient
+7. [Clarity] Is the paper well-organized and clearly written?
+Good
+8. [Detailed Comments] Please elaborate on your assessments and provide constructive feedback.
+his paper proposes to use KBC to replace search-based axiom injection in logic-based RTE. The motivation is to improve efficiency while keep accuracy. Overall, the paper is well written and easy to read.
+
+
+9. [QUESTIONS FOR THE AUTHORS] Please provide questions for authors to address during the author feedback period.
+1. Table 5, ResEncoder, search-based abduction, and KBC-based abduction have very close results. I am not very clear what the comparison tries to demonstrate. Maybe need more discussion and examinations.
+2. In Introduction, seems some content is missing after the phrase "we show that". This is a paper writing issue.
+10. [OVERALL SCORE]
+8 - Accept (Top 50% accepted papers (est.))
+11. [CONFIDENCE]
+Reviewer is knowledgeable in the area
