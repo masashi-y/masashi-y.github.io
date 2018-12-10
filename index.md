@@ -9,6 +9,11 @@ Ph.D. student at
 [Nara Institute of Science and Technology](http://www.naist.jp)  
 
 ## Publications
+
+### Journal
+* _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
+  <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, 自然言語処理(Journal of natural language processing), Vol.26 No.1, to appear
+
 ### Refereed
 
 * _Combining Axiom Injection and Knowledge Base Completion for Efficient Natural Language Inference_,  
