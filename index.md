@@ -16,6 +16,9 @@ Ph.D. student at
 
 ### Refereed
 
+* _Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation_, <u>Masashi Yoshikawa</u>, Hiroshi Noji, Koji Mineshima and Daisuke Bekki, ACL-2019, to appear
+* _Building a Logical Inference System for Visual-Textual Entailment_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, ACL-SRW 2019, to appear
+* _Towards building a logical inference system for image retrieval_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, Workshop on Shortcomings in Vision and Language (SiVL), NAACL-HLT2019 (Extended abstract)
 * _Combining Axiom Injection and Knowledge Base Completion for Efficient Natural Language Inference_,  
   <u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, AAAI-2019, [[pdf](./papers/aaai2019_kbc.pdf)][[code](https://github.com/masashi-y/abduction_kbc)][[reviews](./reviews/aaai2019.txt)][[slides(pdf)](./slides/aaai2019_slides.pdf)][[slides(keynote)](./slides/aaai2019_slides.key)]
 * _Neural sentence generation from formal semantics_,  
@@ -74,6 +77,7 @@ See [my github repository](https://github.com/masashi-y).
 *  Jun. 2017: JASSO Scholarship Full Exemption from Refund
 *  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2) [[proposal](./misc/03_dc_naiyo.pdf)]
 *  Aug. 2018 - Mar. 2019: AIP Challenge Research Funding
+*  Mar. 2019: Young Researcher Encouragement Award in 25th Annual Meeting of NLP
 
 ## Skills
 
