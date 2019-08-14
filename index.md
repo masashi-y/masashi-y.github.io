@@ -16,8 +16,8 @@ Ph.D. student at
 
 ### Refereed
 
-* _Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation_, <u>Masashi Yoshikawa</u>, Hiroshi Noji, Koji Mineshima and Daisuke Bekki, ACL-2019, to appear
-* _Building a Logical Inference System for Visual-Textual Entailment_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, ACL-SRW 2019, to appear
+* _Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation_, <u>Masashi Yoshikawa</u>, Hiroshi Noji, Koji Mineshima and Daisuke Bekki, ACL-2019, [[pdf](./papers/ccg_acl2019.pdf)][[code](https://github.com/masashi-y/ud2ccg)][[slides(google)](https://docs.google.com/presentation/d/1Ip1h0C6yTGzE2MjpMVvFCcusdIv-L_Mmqnk_10cNXSU/edit?usp=sharing)][[reviews](./reviews/acl2019.txt)]
+* _Building a Logical Inference System for Visual-Textual Entailment_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, ACL-SRW 2019, [[pdf](./papers/vis_acl2019srw.pdf)]
 * _Towards building a logical inference system for image retrieval_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, Workshop on Shortcomings in Vision and Language (SiVL), NAACL-HLT2019 (Extended abstract)
 * _Combining Axiom Injection and Knowledge Base Completion for Efficient Natural Language Inference_,  
   <u>Masashi Yoshikawa</u>, Koji Mineshima, Hiroshi Noji and Daisuke Bekki, AAAI-2019, [[pdf](./papers/aaai2019_kbc.pdf)][[code](https://github.com/masashi-y/abduction_kbc)][[reviews](./reviews/aaai2019.txt)][[slides(pdf)](./slides/aaai2019_slides.pdf)][[slides(keynote)](./slides/aaai2019_slides.key)]
@@ -70,7 +70,7 @@ See [my github repository](https://github.com/masashi-y).
 ## Experience
 * Sep. 2015: Intern at NTT Comunication Science Laboratory
 * Sep. 2016: Intern at STAIR Lab, Chiba Institute of Technology
-* Apr. - Jun. 2017, Oct. 2017 - now: Affiliated Researcher at Center of Simulation Sciences in Ochanomizu University
+* Apr. - Jun. 2017, Oct. 2017 - Jul. 2019: Affiliated Researcher at Center of Simulation Sciences in Ochanomizu University
 
 ## Awards and Funding
 *  2012: Kuwait Goverment Scholarship

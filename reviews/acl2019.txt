@@ -1,0 +1,223 @@
+============================================================================ 
+ACL 2019 Reviews for Submission #394
+============================================================================ 
+
+Title: Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation
+Authors: Masashi Yoshikawa, Hiroshi Noji, Koji Mineshima and Daisuke Bekki
+
+============================================================================
+                            META-REVIEW
+============================================================================ 
+
+Comments: The paper describes a method for converting dependency trees into CCG derivations, with the aim of solving the parser adaptation problem across domains. The justification is that there are many dependency treebanks already available, and if not then training annotators to produce dependency trees is easier than CCG derivations. A number of domains are considered: bio, questions, math, speech. The addition of speech and math is particularly welcome, since these are hard for parsers and have obvious downstream application areas.
+
+While the algorithmic idea is not very novel, the paper has several strengths that led to a consensus that it should be accepted: it is well-written, the motivation is creative and solid, the evaluation is very thorough and the results are convincing.
+============================================================================
+                            REVIEWER #1
+============================================================================
+
+What is this paper about, what contributions does it make, what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+The paper describes a method for converting dependency trees into CCG derivations, with the aim of solving the parser adaptation problem across domains. The justification, which is not unreasonable, is that there are many dependency treebanks already available, and if not then training annotators to produce dependency trees is easier than CCG derivations.
+
+The method uses all the latest innovations from the (CCG) parsing literature: pre-trained word embeddings, bidirectional tree-LSTMs, A* search for decoding.
+
+A number of domains are considered: bio, questions, math, speech. The addition of speech and math is particularly welcome, since these are hard for parsers and have obvious downstream application areas.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+The main motivation given for the paper is that the semantic representations from CCG can be used for inference and applied in downstream applications, such as information extraction on scientific papers. This was always the main motivation for CCG parsing, of course, but it's still to be demonstrated convincingly. In the new world of neural NLP, it's important to hang on to some of the "old ways" and not dismiss such methods. The adaptation methods in this paper are crucial for developing parsers which can be applied to eg scientific papers, and I believe the authors can combine these techniques with existing inference engines (some refs in the paper) and use the new CCG parsers in practice.
+
+The results are good: high parsing scores on all domains, even the math one. Certainly good enough to try out the resulting parser in practice.
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+Perhaps not the most novel idea, but a solid contribution nonetheless.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                  Overall Recommendation: 4
+
+Questions and Suggestions for the Author(s)
+---------------------------------------------------------------------------
+The paper is well-presented and a delight to read. The only serious problem with the presentation is that I don't believe the "fine-tuning" method is described anywhere. Since this is a crucial part of the adaptation process, it's important to describe it. So when fine-tuning on Genia-CCG, for example, what does this mean? Train on PTB first, then somehow adjust the parameters using the treebank in the other domain? Just concatenate the treebanks and train as usual? ...?
+
+The lack of clarity on the fine-tuning is the reason I don't understand this part: "Contrary to our expectation, the plain
+depccg retrained on Questions data performs
+the best, with neither ELMo nor the proposed
+method taking any effect". So what do you do here? Just train on the CCG question bank? then "fine-tune" with the extra 1000 sentences or so? If so, it's not so surprising the fine-tuning doesn't help, since the question syntax is already there in the question bank (I think you try and make this point).
+
+In table 3 where does the C&C score come from? It's much higher in
+  the Rimelll and Clark EMNLP paper.
+---------------------------------------------------------------------------
+
+
+Missing References
+---------------------------------------------------------------------------
+Hindi
+  CCGbank: CCG Treebank from the Hindi Dependency Treebank Bharat Ram
+  Ambati · Tejaswini Deoskar · Mark Steedman
+
+Lewis and	Steedman A* parsing is earlier than the reference given and should be added
+---------------------------------------------------------------------------
+
+
+Typos, Grammar, and Style
+---------------------------------------------------------------------------
+Additionally, We manually construct e
+
+remaining ambiguities such as selectional preference need to be
+  modeled using dependencies - i think you mean "attachment ambiguities" here; selectional preference is subtly different
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #2
+============================================================================
+
+What is this paper about, what contributions does it make, what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+Motivated by CCG's transparent syntax-semantics interface and its consequent popularity as a basis for semantic parsing, the authors seek to improve the accuracy of CCG parsers on new domains, without the need to expensively produce annotated CCG training data for these domains. Their strategy to do this is to automatically generate annotated CCG corpora from cheaper-to-obtain dependency corpora. An advantage of this strategy is that it is applicable to off-the-shelf supervised CCG parsers and can thus immediately profit from any future improvement in this area. Concretely, the proposed method is to train a model to convert dependency trees to CCG trees, then fine-tune an off-the-shelf CCG parser on in-domain data thus converted. The proposed conversion model consists of a BiTreeLSTM encoder for dependency trees, and a decoder that closely follows the A* dependency/supertag-based CCG parser of Yoshikawa et al. (2017), adding the encoded dependency tree as additional signal. !
+ An advantage of this decoder, in addition to being the current state of the art in CCG parsing, is that it can easily incorporate hard constraints, enabling the use of domain-specific knowledge in conversion, such as terminology in the biomedical domain, and disfluencies in the speech conversation domain. It is shown that the proposed domain adaption method has a large positive impact on parsing accuracy on four datasets, one consisting of biomedical text, one of questions, one of speech conversation, and one of math problems.
+
+Contributions:
+
+* a new method for domain adaption of off-the-shelf supervised CCG parsers using domain-specific dependency corpora
+* demonstration of the effectiveness of this method on four different domains
+* annotated CCG datasets for two domains where previously no such data existed
+* software implementation (promised)
+
+Strenghts:
+
+* clearly written
+* clever use of relatively structure-poor resources (dependency trees) to effect performance gains in predicting relatively structure-rich representations (CCG derivations)
+* choice of a decoder model that interfaces well with hard constraints, and clever use of this possibility
+* solid evaluation
+* wide range of evaluation domains
+* contribution of new annotations for evaluation
+* very relevant topic because the usefulness of CCG for semantic parsing methods is, in my view, often limited by lack of in-domain training data
+
+Weaknesses:
+
+* The paper motivates the usefulness of CCG parsing in terms of semantic parsing, but evaluates it only in terms of dependencies. Ideally, one would demonstrate the effectiveness on a more semantic task, such as question answering.
+* Some details could be described more clearly (see below).
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+See the long list of strengths above. It is clearly written, well thought out, solidly evaluated, and relevant.
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+None.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                  Overall Recommendation: 4.5
+
+Questions and Suggestions for the Author(s)
+---------------------------------------------------------------------------
+Lines 400-406: Unless I'm missing something, something is wrong with the formulation of these constraints. If a span is constrained to be an NP, then an N subtree can never be added as per the second condition. Adding the third condition does not change anything about that; what you need to do is add an exception to the second condition instead.
+
+Line 445: Which ELMo model do you use, exactly? How many dimensions, how many layers?
+
+Line 561-562: How do you convert CCG derivations to GR graphs?
+
+Line 721: What exactly do you mean by "semantic dependencies"?
+---------------------------------------------------------------------------
+
+
+Missing References
+---------------------------------------------------------------------------
+Line 279: For A* CCG parsing, you cite only Yoshikawa et al. (2017) here. I think Lewis and Steedman (2014) should also be cited here because they pioneered A* CCG parsing.
+---------------------------------------------------------------------------
+
+
+Typos, Grammar, and Style
+---------------------------------------------------------------------------
+Line 667: "e.g." -> "i.e."
+
+Line 678: "are compound of" -> "suffer from the compound effect of"
+
+Line 748: "annotates" -> "annotated"
+---------------------------------------------------------------------------
+
+
+
+============================================================================
+                            REVIEWER #3
+============================================================================
+
+What is this paper about, what contributions does it make, what are the main strengths and weaknesses?
+---------------------------------------------------------------------------
+This paper addresses the problem of domain adaptation for CCG parsing. As a solution, a method is proposed for automatically generating CCG banks from dependency treebanks, which in turn can be exploited for domain adaptation. The treebank converter uses a Bi-TreeLSTM encoder in combination with A* parsing decoding. The decoding process is augmented by a constraint formulation which allows to force certain structures in the output.
+
+The paper verifies the method with parsing experiments on four domains, namely biomedical texts, question sentences, speech conversations, and math problems. The method is shown to generally very effective.
+
+Strengths:
+
+- The presented approach is conceptually simple.
+- The method leads to improved parsing results across different domains.
+- The data sets which are used include both benchmark data sets and newly annotated sets
+- Effective parametrization of converter via constraint decoding.
+
+Weaknesses:
+
+- The parsing of the speech data is ambitious, but it is unclear how meaningful the evaluation is. The automated version contains accumulated error (as already mentioned in the text), and the manually annotated test set is small.
+- The converter needs CCG training material which may or may not be available for languages other than English. Previous methods of conversion between dependencies and CCG based on heuristics (like Bos et al. (2009)) are not considered for comparison.
+---------------------------------------------------------------------------
+
+
+Reasons to accept
+---------------------------------------------------------------------------
+- Conceptually simple method for domain adaptation in CCG parsing
+- Works very well across different domains, large improvements in parsing results
+---------------------------------------------------------------------------
+
+
+Reasons to reject
+---------------------------------------------------------------------------
+See above: Lack of discussion concerning simpler models of conversion from dependencies to CCG.
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+Reviewer's Scores
+---------------------------------------------------------------------------
+                  Overall Recommendation: 4
+
+Questions and Suggestions for the Author(s)
+---------------------------------------------------------------------------
+- Conversion from dependency treebanks into CCG banks has already been attempted in previous work, as mentioned above. Have you considered such approaches?
+- Could you comment on how this method would transfer to languages other than English?
+- It is hard to figure out from the text how the "fine-tuning" works. This should be laid out more clearly.
+---------------------------------------------------------------------------
+
+
+Missing References
+---------------------------------------------------------------------------
+- Comparison incl. references regarding previous approaches to dependency - CCG conversion (see above)
+- Possibly worth mentioning: Constraint decoding in a similar form as described is available in the PCFG parser LoPar.
+---------------------------------------------------------------------------
+
+
+Typos, Grammar, and Style
+---------------------------------------------------------------------------
+- l 239: Avoid bold font in running text
+- l 774: 10 point —> 10 points
+- l 795: 5 point —> 5 points
+---------------------------------------------------------------------------
