@@ -54,7 +54,8 @@ Ph.D. student at
 
 ### Talk
 
-* 「深層学習とA*アルゴリズムによる高速なCCG解析」, TokyoCL(2018/9/28) [[slide](slides/tokyo_cl.pdf)]
+* 「理論言語学に基づいた自然言語処理システム」, MiCS (2019/9/23) [[pdf](slides/mics_2019.pdf)] [[keynote](slides/mics_2019.key)]
+* 「深層学習とA\*アルゴリズムによる高速なCCG解析」, TokyoCL (2018/9/28) [[slide](slides/tokyo_cl.pdf)]
 
 ## Software
 See [my github repository](https://github.com/masashi-y).
