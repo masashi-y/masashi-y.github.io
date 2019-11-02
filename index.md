@@ -12,7 +12,7 @@ Ph.D. student at
 
 ### Journal
 * _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
-  <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, 自然言語処理(Journal of natural language processing), Vol.26 No.1
+  <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, 自然言語処理(Journal of natural language processing), Vol.26 No.1 [[link](https://www.jstage.jst.go.jp/article/jnlp/26/1/26_83/_article/-char/en)]
 
 ### Refereed
 
