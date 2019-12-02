@@ -34,7 +34,7 @@ Ph.D. student at
 
 ### Unrefereed
 * 「テキスト情報と画像情報を組み合わせた論理推論システムの構築」  
-  鈴木莉子, <u>吉川将司</u>, 谷中瞳, 峯島宏次, 戸次大介, 人工知能学会第33回全国大会(<font color="Red">優秀賞（口頭発表部門）</font>) [[pdf](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_2L1J903/_article/-char/ja/)]  
+  鈴木莉子, <u>吉川将司</u>, 谷中瞳, 峯島宏次, 戸次大介, 人工知能学会第33回全国大会(<font color="Red">優秀賞(口頭発表部門)</font>) [[pdf](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_2L1J903/_article/-char/ja/)]  
 * 「係り受け木を用いたツリーバンク自動生成によるCCG解析分野適応」  
   <u>吉川将司</u>, 能地宏, 峯島宏次, 戸次大介 言語処理学会第24回年次大会(<font color="Red">若手奨励賞</font>) [[pdf](./papers/ccg_nlp2019.pdf)]  
 * 「安価な統語情報からの変換モデルの学習によるCCG解析ドメイン適応」  
