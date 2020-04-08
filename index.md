@@ -4,9 +4,8 @@ title: Masashi Yoshikawa
 ---
 
 # Masashi Yoshikawa
-Ph.D. student at  
-[Computational Linguistics Laboratory](http://cl.naist.jp)  
-[Nara Institute of Science and Technology](http://www.naist.jp)  
+I have recently moved to [TCPAI reserch center](http://tcpai.tohoku.ac.jp/en/) at [Tohoku University](http://www.tohoku.ac.jp/en/).  
+I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp/).
 
 ## Publications
 
@@ -65,7 +64,7 @@ See [my github repository](https://github.com/masashi-y).
 * 2010 - 2015: Osaka University Faculty of Foreign Studies (major: Turkish)
 * 2012 - 2013: Kuwait University Language Center
 * 2015 - 2017: M.E., Nara Institute of Science and Technology Graduate School of Information Science
-* 2017 - current: Ph.D. student, Nara Institute of Science and Technology
+* 2017 - 2020: Ph.D. student, Nara Institute of Science and Technology
  Graduate School of Information Science
 
 ## Experience
@@ -81,6 +80,7 @@ See [my github repository](https://github.com/masashi-y).
 *  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2) [[proposal](./misc/03_dc_naiyo.pdf)]
 *  Aug. 2018 - Mar. 2019: AIP Challenge Research Funding
 *  Mar. 2019: Young Researcher Encouragement Award in 25th Annual Meeting of NLP
+*  Mar. 2020: NAIST Excellent Student Award
 
 ## Skills
 
@@ -96,4 +96,4 @@ See [my github repository](https://github.com/masashi-y).
 * I type in Dvorak key conf and like Vim :)
 
 ## Contact
-yoshikawa.masashi.yh8 [at] is.naist.jp
+masashi.yoshikawa.d8 [at] tohoku.ac.jp
