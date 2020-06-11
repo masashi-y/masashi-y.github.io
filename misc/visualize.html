@@ -1,0 +1,155 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style type='text/css'>
+        .answer_question_span {
+            background-color: #ffcc99;
+        }
+        .answer_passage_span {
+            background-color: #66ff33;
+        }
+        .arith_span {
+            background-color: #ffccff;
+        }
+        .arith_span_sub {
+            vertical-align: sub;
+        }
+    </style>
+    <link href="https://unpkg.com/tabulator-tables@4.6.3/dist/css/tabulator.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.6.3/dist/js/tabulator.min.js"></script>
+    <script type="text/javascript" src="./train1000.json"></script>
+<head>
+<body>
+<div>
+    <button id="download-json">Download JSON</button>
+</div>
+<div id="drop-table"></div>
+<script>
+Array.prototype.copy = function() {
+    return this.slice(0, this.length);
+}
+
+Array.prototype.remove_last = function() {
+    return this.slice(0, this.length - 1);
+}
+
+var answer_types = {};
+tabledata.forEach(function(item, index) {
+    if (!(item.answer_type in answer_types)) {
+        answer_types[item.answer_type] = item.answer_type;
+    }
+    var answer_info = item.answer_info;
+    item.id = item.additional_metadata.passage_id + "/" + item.additional_metadata.question_id;
+    item.skipped = !answer_info.skipped;
+    item.passage_data = {
+        passage_tokens: item.passage_tokens,
+        answer_span: answer_info.answer_passage_spans,
+        arith: {
+            number_indices: item.number_indices.remove_last(),
+            signs: answer_info.signs_for_add_sub_expressions.map(x => x.remove_last()),
+        },
+    };
+    item.used_counts = answer_info.counts.length > 0 &&
+            answer_info.answer_passage_spans.length == 0 &&
+            answer_info.answer_question_spans.length == 0 &&
+            answer_info.signs_for_add_sub_expressions.length == 0,
+    item.used_arith = answer_info.signs_for_add_sub_expressions.length > 0 &&
+            answer_info.answer_passage_spans.length == 0 &&
+            answer_info.answer_question_spans.length == 0 &&
+            answer_info.counts.length == 0,
+    item.ambiguous = answer_info.signs_for_add_sub_expressions.length > 1 ||
+           [answer_info.signs_for_add_sub_expressions,
+            answer_info.answer_passage_spans,
+            answer_info.answer_question_spans,
+            answer_info.counts].filter(x => x.length > 0).length > 1
+    item.question_data = {
+        question_tokens: item.question_tokens,
+        answer_span: answer_info.answer_question_spans,
+    };
+    this[index] = item;
+}, tabledata);
+
+function format_passage(cell) {
+    var passage_data = cell.getValue();
+    var passage_tokens = passage_data.passage_tokens.copy();
+    if (passage_data.answer_span.length > 0) {
+        for (var span of passage_data.answer_span) {
+            passage_tokens[span[0]] =
+                    "<span class='answer_passage_span'>" + passage_tokens[span[0]];
+            passage_tokens[span[1]] = passage_tokens[span[1]] + "</span>";
+        }
+    }
+    if (passage_data.arith.signs.length > 0) {
+        var number_indices = passage_data.arith.number_indices;
+        var sign_patterns = passage_data.arith.signs;
+        for (var i = 0; i < sign_patterns.length; i++) {
+            for (var j = 0; j < sign_patterns[i].length; j++) {
+                if (sign_patterns[i].filter(v => v > 0).length == 1) continue;
+                if ([1, 2].includes(sign_patterns[i][j])) {
+                    passage_tokens[number_indices[j]] =
+                        "<span class='arith_span'>"
+                        + passage_tokens[number_indices[j]]
+                            + "<span class='arith_span_sub'>"
+                            + (sign_patterns[i][j] == 1 ? "+[" : "-[")
+                            + i.toString() + "]</span>"
+                        + "</span>";
+                }
+            }
+        }
+    }
+    return passage_tokens.join(' ');
+}
+
+function format_question(cell) {
+    var question_data = cell.getValue();
+    var question_tokens = question_data.question_tokens;
+    if (question_data.answer_span.length > 0) {
+        for (var span of question_data.answer_span) {
+            question_tokens[span[0]] =
+                    "<span class='answer_question_span'>" + question_tokens[span[0]];
+            question_tokens[span[1]] = question_tokens[span[1]] + "</span>";
+        }
+    }
+    return question_tokens.join(' ');
+}
+
+function topCalcSkipped(values) {
+    var total = 0, skipped = 0;
+    values.forEach(function(value) {
+        if (!value) skipped++;
+        total++;
+    });
+    return skipped.toString() + "/" + total.toString();
+}
+
+
+var table = new Tabulator("#drop-table", {
+    data: tabledata,
+    height: "98%",
+    layout:"fitDataFill",
+    responsiveLayout:"collapse",
+    pagination: "local",
+    paginationSize: 50,
+    paginationSizeSelector: [10, 20, 50, 100],
+    columns:[
+        // {formatter:"responsiveCollapse", width:30, minWidth:30, hozAlign:"center", resizable:false, headerSort:false},
+        {formatter:"rownum", hozAlign:"center", width:40, topCalc: "max"},
+        {title:"Id", field:"id", width:100, responsive:0, editor: "input"},
+        {title:"Skip", field:"skipped", hozAlign:"center", width:100, formatter: "tickCross", headerFilter: true, responsive:0, topCalc: topCalcSkipped},
+        {title:"Arith", field:"used_arith", hozAlign:"center", width:100, formatter: "tickCross", headerFilter: true, responsive:0},
+        {title:"Count", field:"used_counts", hozAlign:"center", width:100, formatter: "tickCross", headerFilter: true, responsive:0},
+        {title:"Ambiguous", field:"ambiguous", hozAlign:"center", width:100, formatter: "tickCross", headerFilter: true, responsive:0},
+        {title:"True Ans. type", field:"answer_type", width:150, responsive:0, headerFilter: "select", headerFilterParams: {values: answer_types}},
+        {title:"Ans", field:"answer_info.answer_texts", width:250, responsive:0, editor: true},
+        {title:"Question", field:"question_data", formatter: format_question},
+        {title:"Passage", field:"passage_data", formatter: format_passage},
+    ],
+});
+
+document.getElementById("download-json").addEventListener("click", function() {
+    table.download("json", "data.json");
+});
+
+</script>
+</body>
+</html>
