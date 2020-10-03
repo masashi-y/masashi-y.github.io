@@ -197,9 +197,202 @@ Optative
 
 ## 7.4 Reflexive possessives
 
+- 3rd person possessive
+  - reflexive: sg. თავისი pl. თავიანთი
+  - nonreflexive: sg. მისი pl. მათი
+- 例：
+  - სოსომ თავის დას საჩუქარი გაუგზავნა.
+    - Soso sent his sister a gift
+  - საჩუქარი მის ქმარსაც გაუგზავნა.
+    - He also sent her husband a gift
+
+#### emphatic pronoun
+
+- თვითონ （ロシア語のсамに対応）
+  - ელენემ თვითონ დაწერა წერილი
+    - Helen herself wrote the letter.
+
+#### Possessives
+
+- 形容詞として、もしくは代名詞的に使える
+- 形容詞として使い、与格のときは語尾をつける（reflexive, 3rd sg.以外）
+  - ჩემს, ჩვენს,  შენს, თქვინს, მათს
+
+| possessives | Singular | Plural   |
+| ----------- | -------- | -------- |
+| 1st.        | ჩემი     | ჩვენი    |
+| 2nd.        | შენი     | თქვენი   |
+| 3rd         | მისი     | მათი     |
+| reflexive   | თავისი   | თავიანთი |
+
+#### Reflexive pronouns
+
+- 以下は形としてთავი名詞句なので、普通に活用し、３人称目的語マーカーが必要。
+
+| Reflexive pronouns | Singular    | Plural        |
+| ------------------ | ----------- | ------------- |
+| 1st.               | ჩემი თავი   | ჩვენი თავი    |
+| 2nd.               | შენი თავი   | თქვინე თავი   |
+| 3rd.               | თავისი თავი | თავიანთი თავი |
+
+- 例：
+  - ელგუჯამ თავისი თავი სარკეში ნახა.
+    - Elguja saw himself in the mirror.
+  - ჩემს თავს ბეჯით შტუდენტად ვთლი.
+    - I consider myself a diligent student.
+
+#### Reciprocal pronoun
+
+- ეოთმანეთი
+
 ## 7.5 Relative and interrogative pronouns
 
+|          | Interrogative | Relative      |
+| -------- | ------------- | ------------- |
+| which    | რომელი?       | რომელიც       |
+| who      | ვინ?          | ვინც          |
+| what     | რა?           | რაც           |
+| where    | სად?          | სადაც         |
+| how      | როგორ?        | როგორც        |
+| how many | რამდენი?      | რამდენიც      |
+| when**   | როდის?        | როდესაც, როცა |
+
+- 例：
+  - კაცი, რომელიც ვნახე
+    - The man whom I saw
+  - წიგნი, რომელსაც ვკითხულობდი
+    - The book that I was reading
+  - ექიმი, რომელმაც გნახა
+    - The doctor who saw you
+- postpositionを伴うこともできる
+  - რომელშიც (რომელშიდაც) in which
+  - რომელზეც (რომელზედაც) on which
+  - რომლის შესახებაც about which
+
+#### genitiveの例
+
+- საქართველო, რომლის დედაქალაქიც თბილისია, საბჭოთა კავშირშია.
+  - Georgia, the capital of which is Tbilisi, is in the Soviet Union.
+- ვანომ გადათარგმნა წიგნი, რომლის შესახებაც მოგწეერთ.
+  - Vano translated the book about which I wrote you all.
+- これらは-ცを省略しても問題ない
+
 ## სიტყვები
+
+- ბაჟი: customs duty
+- საბაჟო: custom house
+- აგენტი: agent
+- სააგენტო: agency
+- ელჩი: ambassador
+- საელჩო: embassy
+- მზარეული: cook
+- სამზარეულო: kitchen
+- საფლავი: grave
+- სასაფლაო: cemetry
+- ავადმყოფი: patient, sick person
+- საავადმყოფო: hospital
+- სტუმარი: guest
+- სასტუმრო: hotel
+- ზეთი: oil
+- საზეთე: oiler, lubricator
+- თვალი: eye
+- სათვალი: eyeglasses
+- თამაში: game, playing
+- სათამაშო: toy
+- ზრდა: growth
+- საზრდო: food
+- საბეჭდი მანქანა: typewriter <- ბეჭდავს print
+- საწერი მაგიდა: writing table <- წერს
+- საკერავი მანქანა: sewing machine <- კერავს sew
+- გასაღები: key <- გააღებს
+- დასალევი: beverage <- დალევს
+- აღსანიშნავი: notable <- აღნიშნავს
+- ფეხსაცმელი: shoes <- იცვამს dress s.o.
+- ტანსაჩმელი: clothes
+- ტანი: body
+- საჭმელი: food <- ჭამს
+- აერაპორტი: airport
+- ან: or
+- ახალგაზრდა: young, youth (person)
+- ბებია: grandmother
+- ბიძა: uncle
+- ბოთლი: bottle
+- გამყიდველი: salesperson
+- გენერალი: general (military)
+- გთხოვ(თ): please
+- ეპისკოპოსი: bishop
+- ვრცელი: long (extensive)
+- ზოგიერთი: several
+- იაფი: cheap
+- იმდენი: that much
+- კაბა: dress
+- კაპიკი: copeck
+- კატა: cat
+- მანეთი: ruble
+- მაღაზია: store
+- მეზობელი: neighbor
+- მესაზღვრე: border guard (<-საზღვარი)
+- მეტი: more
+- მეტისმეტად: too (overly)
+- მთავრობა: government
+- მოკლე: short
+- მოულოდნელი: unexpected
+- მღვდელი: priest
+- მშობლები: parents
+- ნოხი: carpet, rug
+- ოსტატი: master, craftsman
+- პაპიროსი: cigarette
+- პატარა: small
+- პერანგი: shirt
+- პირი: face, mouth
+- რამდენიც: as much
+- რეცენზია: review, critique
+- სადგური: station
+- ესტრადა: stage
+- საესტრადო: pertaining to the stage
+- საზღვარი: border, frontier
+- საოცარი: surprising
+- სარკე: mirror
+- სასადილო: dining room
+- სასახლე: palace
+- საწოლი: bed
+- საწყალი: poor
+- სიამოვნება: pleasure
+- სკამი: chair
+- სუფრა: table, table-cloth
+- უცებ: suddenly
+- ფური: monoy
+- შარვალი: trousers
+- და-ბან-ს: wash sthg.
+- და-ჰ-ბან-ს: wash s.o.'s sthg.
+- ბრძანებს: pr.=fut. order
+- უ-ბრძან-ენ-ს: order s.o. (to do something)
+- გაგზავნის: send
+- გა(მო)-უ-გზავნის: send s.o. sthg.
+- დააგრძელებს: lengthen
+- შეაეეთენხ: unite
+- უკითხავს: pr.=fut. (rel. form of იკითხავს, pr. კითხულობს) read s.o. sthg.
+- ე-ლოდ-ებ-ა: wait (or s.o./sthg.)
+- და-უ-მალ-ავ-ს: hide from s.o.
+- გან-მარტ-ავ-ს: explain
+- სიტყვას განმარტავს: define (a word)
+- და-რეკ-ავ-ს: ring
+- და-უ-რეკ-ავ-ს: telephone s.o. (id.o.)
+- გან+საზღვრ-ავ-ს: define
+- შე-უ-ტევ-ს: attack (only id.o.; no d.o.)
+- ა-ქ-ებ-ს: pr.=fut. (fut. წე-აქებს is also used) praise
+- უ-ქ-ებ-ს: pr.=fut. (fut. წე-უქებს is also used) praise s.o.'s (dat.)
+- ი-ყიდ-ი-ს, ყიდულობ-ს (conditional: იყიდდა or იყიდიდა, conjunctive: იყიდდეს or იყიდიდეს) buy
+- უ-ყიდ-ი-ს: rel. form of იყიდის (pr.=fut.) buy sthg. for s.o.
+- მი-ჰ-ყიდ-ი-ს: (impf./cond.:(მი)ჰყიდდა or (მი)ჰყიდიდა, conj.: (მი)ყიდდეს or (მი)ყიდიდეს) sell to s.o.
+- გა-ყიდ-ი-ს (impf./cond.:(გა)ყიდდა or (გა)ყიდიდა, conj.: (გა)ყიდდეს or (გა)ყიდიდეს) sell
+- გა-ა-ჩერ-ენ-ს: stop
+- შე-ა-შინ-ებ-ს: frighten
+- ი-ცნ-ონ-ს: 1. know (present only) 2. recognize (aor. (ვ)იცანი(თ), იცნო, ინ(ვ)ნეს) 
+- გა-ა-ცნ-ობ-ს: introduce s.o. to s.o. (aor. irr. გა(ვ)აცანი(თ), გააცნო, გააც(ვ)ნეს)
+- ა+უ-წერ-ს: describe to s.o.
+  - u-seriesマーカーを伴うとき必ずაღ+ -> ა+
+- და-ე-ხმარ-ებ-ა: help s.o. (dat.)
 
 ## სავარჯიშოები
 
