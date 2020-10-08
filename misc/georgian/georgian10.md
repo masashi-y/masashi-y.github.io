@@ -167,13 +167,238 @@ perfect particleと'be'に相当する動詞を組み合わせると、英語の
 | იწერებოდა it was being written     | დაწერილი იყო it was written                     |
 | უნდა დაიწეროს it should be written | უნდა დაწერილი იყოს it should have been written* |
 
+- თბილისი განლაგებულია მდინარე მტკვარის ნაპირებზე.
+  - Tbilisi is located on the banks of the river Kura (...)??
+- ეს შრომა ჯაფარიძის მიორ იყო დაწერილი.
+  - This work was written by Japarije.
 
+2つめのperipharstic passiveの表し方は、იქნება/ექნაを使った表現の仕方で、基本的には1st conj.動詞に対して使われるが、2nd conj.動詞にも用例が広がっている。იქნება等の前にparticipleを置く場合、participleは各マーカを持たない。逆の語順の場合、participleは単数主格形にする。იქნებაは形の上ではაოისの未来形と同じだが、aoristではこの用法では異なった形を取る。
+
+- ვიქენი(თ), იქენი(თ), იქნა, იქნენ
+  - optativeは2種ある
+    - (ვ)იქნა(თ), იქნას, იქნან
+    - (ვ)იქნე(თ), იქნეს, იქნნენ
+- 例
+  - მიღებულ იქნა ახალ ბრძანება. (cf. მიიღებს)
+    - A new order was received
+  - ეს უნდა გარჩეულ იქნეს მარტივი ვნებითისაგან.
+    - This must be distinguished frmo the simple passive
+  - საჭირო ზომები იქნება მიღებული.
+    - Necessary measures will be taken.
+  - ბრალდებული იქნა დასჯილი.
+    - The accused was sentenced.
+
+periphrastic passiveは1つめの表し方のほうが一般的で、იქნებაは文語的である。
 
 ## 11.4. Causative of 1st conj. verbs
 
+- 1st conj.のうち、regular動詞と、irregularでも-ებ, -ობで終わる動詞は使役形を作れる
+  - ა- ... -ინ-ებ-を現在/未来形語根につけ、
+  - preradical vowelを落とし、
+  - 語尾が-ი-であれば落とし、
+  - -ავ-ならsyncopeを行う
+- 使役形の意味としては、英語の複数のものに対応しえる
+  - cause/have s.o. to do something
+  - let/permit s.o. do something
+  - make/help s.o. do something
+- 使役する側は主語、される側は間接目的語で、h-seriesでマークされる
+
+| もとの動詞 | 使役形         |
+| ---------- | -------------- |
+| მოისმენს   | მოასმენინებს   |
+| დაწერს     | დააწერინებს    |
+| გაგზავნის  | გააგზავნინებს  |
+| დახატაბს   | დაახატვინებს   |
+| გაიგებს    | გააგებინებს    |
+| გაიმეორებს | გაამეორებინებს |
+| გაათბობს   | გაათბობინებს   |
+
+- irregular動詞で、-ი, -ავ, -ამ語尾の場合は-ა- ... -ევინ-ებをつける
+  - -იは落とし、-ავ, -ამはsyncopeを行う
+
+| もとの動詞 | 使役形          |
+| ---------- | --------------- |
+| დასჯის     | დაასჯევინებს    |
+| მოკლავს    | მოაკვლევინებს   |
+| გამოთქვამს | გამოათქმევინებს |
+| დადგამს    | დაადგმევინებს   |
+
+- ჭამსとდალევსは例外的
+
+| Future/Present | Causative Future/Present | Causative aorist           | Causative perfect |
+| -------------- | ------------------------ | -------------------------- | ----------------- |
+| ჭამს           | აჭმევს                   | (ვ)აჭამე(თ), აჭამა, აჭამეს | უჭმევია           |
+| დალევს/სვამს   | დაალევინებს/ასმებს       | (ვ)ასვი(თ), ასვა, ასვეს    | უსმევია           |
+
+- დალევსには規則に従ったaoristとperfect seriesもある
+  - aorist: დაალევინა, perfect დაულევინებია
+- 例：
+  - კიტას ამ წერულის მის ჟურნალში გამოვაქვევეყნებინებ.
+    - I will have Kita publish this letter in his magazine.
+  - რედაქტორმა კიტას ეს წერილი თავის ჟურნალში გამოაქვეყნებინა.
+    - The editor had Kita publish this letter in his magazine.
+  - რედაქრორს კიტასათვის ეს წერილი თურმე თავის ჟურნალში გამოუქვეყნებინებია.
+    - The editor has apparently had Kita publish this letter in his magazine.
+
 ## 11.5 Participles
 
+### (Present) active participle (of 3rd conj. 動詞)
+
+- 以下のいずれかでつくる
+  - მ-, suffixなし
+  - -არე, -არ-, (-ალე, -ალ-; 語根にრを含む場合)
+  - მო- ... -ე
+- 例：
+  - ცურავს -> მცურავი
+  - ფრინავს -> მფრინავი
+  - ლაპარაკობს -> მოლაპარავე
+  - მუშაობს -> მომუშავე
+  - დუღს -> მდუღარე
+  - ტირის -> მტირალი
+- irregular 動詞の場合
+  - არის -> მყოფი (cf. VN: ყოფნა)
+  - (მო)დის -> (მო)მავალი (future 1sg.: (მო)ვალ)
+  - დგას -> მდგომარე (VN: დგომა)
+  - ზის -> მჯდომარე (VN: ჯდომა)
+  - სხედან -> მსხდომარე (VN: სხდომა)
+  - წევს -> მწოლარე (VN: წოლა)
+
+### Future (passive) participle of irregular verbs
+
+- აოის -> სამყოფი (also means: dwelling, sufficient)
+- (მო)დის -> (მო)სავალი (a.m. harvest)
+- დგას -> სადგომი (a.m. dwelling, abode)
+- დაჯდობა -> დასაცდომი
+- წევს -> საწოლი (a.m. bed)
+
+### Negative participle
+
+- 1st conj.は以下の2つの形
+  - უ-
+    - -ავ動詞に多い
+  - უ- ... -ელ-
+    - 大抵syncopeを伴う
+  - 未来語根から人称マーカー、preradical vowelを落としてつける
+  - -იは落とし、-ამ, -ავはsyncopeを行う
+- 例：
+  - დაწერს -> დაუწერელი
+  - მოჭრის -> მოუჭრელი
+  - წარმოთქვამს -> წარმოუთქმელი
+  - ნახავს -> უნახავი
+  - დახატავს -> დაუხატავი
+  - მოკლავს -> მოუკვლელი, მოუკლავი
+  - გაიმეორებს -> გაუმეორებელი
+  - მოსპობს -> მოუსპობელი
+-  perfect participleをმ- ... -არ- (-ელ-)で作るものは、მ-の前にუ-をつけて作ることもできる
+
+| future   | perfect participle | negative participle   |
+| -------- | ------------------ | --------------------- |
+| გაათბობს | გამთვარი           | გაუმთბარი, გაუთბობელი |
+| შეცდება  | შემცდარი           | შეუმხდარი, შეუცდომელი |
+
+- irregular 動詞
+  - მოდის -> მოუსვლელი
+  - დადგება -> დაუდგომელი, დაუმდგარი
+  - დაჯდება -> დაუჯდომელი, დაუმჯდორი
+  - დაწვება -> დაუწოლელი
+- 用例：
+  - მისის წერილის დაუკითხავად მე შენ ვერ გიპასუხებ.
+    - Without having read his letter I will not be able to answer you.
+
+### Perfect participle in ნა-
+
+- perfect participleを作る方法は、上述の方法とは別のものがある
+  - 古いジョージア語文献に出現し、現代では一般的ではない
+  - ნა-を未来語根につけ、-ი語尾は落とし、regular 動詞に限って-ავ語尾も落とす
+- 例：
+  - დაწერს -> დანაწერი
+  - დაიჭერს -> დანაჭერი
+  - გაგზავნის -> განაგზავნი
+  - მოჭრის -> მონაჭერი
+  - დაბეჭდავს -> დანაბეჭდი
+  - გაზომავს -> განაზომი
+  - მოსპობს -> მონასპობი
+  - გამოთქვამს -> გამონათქვამი
+  - დახატავს -> დანახატი
+  - მოკლავს -> მონაკლავი
+  - მიიღებს -> მინაღები
+  - გააგრძელებს -> განაგრძელები
+  - გაათბობს -> განათბობი
+  - გააჭრობს -> განაშრობი
+
+### 名詞化
+
+- ყინავს (freeze) -> ნაყინი (ice cream)
+- აწარმოებს (produce, work) -> ნაწარმოები (product, work)
+- იხნობს (know s.o.) -> ნახნობი (acquaintance)
+- წერს -> წელნაწერი
+- თამაშობს -> სათამაშო (toy), მოთამაშე (player)
+- ჩივის (complaint) -> საჩივარი (complaint)
+- ლაპარაკობს -> მოლაპარაკე (speaker)
+- ფრინავს -> მფრინავი (pilot)
+
 ## სიტყვები
+
+- ან: or
+- არავითარი: no (kind of)
+- ასო: letter
+- აქამდის: up to now
+- ახლანდელი: present(-day)
+- გამოგონება: invention
+- გამომგონებელი: inventor
+- განათლება: education, instruction
+- გლეხი: peasant
+- დამწერლობა: writing system, writing
+- ერთადერთი: only onew the only, unique
+- -ვე: same (particle indicating identity)
+- თავდაპირველი: original, initial
+- თანამედროვე: contemporary
+- თეორიული: theoretical
+- კითხე: corner, angle, region
+- მარჯვენა: right; right hand
+- მომდევნო: following
+- მონათესავე: related
+- მოსაწვევი: invitation
+- მოქცევა: conversation
+- მშვენუერი (gen. მშვენივრის): beautiful
+- მხატვარი: artist, painter
+- ნათესაობა: relationship
+- ოჯახი: family
+- პროფესიული: professional
+- რედაქცია: edition
+- რიცხვი: number
+- სახელოვანი: famous
+- სხვადასხვა: different
+- სხვისი: someone else's (gen. of სხვა)
+- ტექნიკა: technique
+- ტრადიცია: tradition
+- უდური: Udi (NE Caucasian language)
+- ფერწერა: painting
+- ქმარი: husband
+- ღარიბი: poor (not rich)
+- შემქმნელი: creater
+- შეყვარებული: beloved
+- შუა საუკუნეები: Middle Ages
+- ცხადი: clear
+- წარსული: past
+- წინაპარი: ancestor
+- ჯალათი: executioner
+- ალბანეთი: Albania (both Caucasus and Balkan)
+- კახეთი: Kakhetia
+- და-ა-დგენ-ს: fix, determine
+- გადა+ა-კეთ-ებ-ს: remake, alter
+- (წა)-ა-კითხ-ებ-ს: cause to read (causative of წაიკითხავს)
+- გა(ნ)-ა-ლაგ-ებ-ს: locate
+- და-ა-ლაგ-ებ-ს: arrange, order
+- და-უ-მატ-ებ-ს: add sthg. to sthg.
+- (ჰ-)ა-მჯობინ-ებ-ს: prefer (sthg./s.o.) to (sthg./s.o.)
+- და-ე-ნათესავ-ებ-ს: be related to
+- შემო-ი-ნახ-ავ-ს: preserve, keep, save (e.g. money)
+- და-ე-ფუძნ-ებ-ა: be based on (sthg.)
+- შე-ჭამ-ს: eat up, consume
+- ა-ჭმევ-ს: feed
+- მო-ა-ჩრევ-ინ-ებ-ს: cause to cut off
+- ა-ხსნ-ი-ს: solve, explain
 
 ## სავარჯისოები
 
