@@ -102,7 +102,6 @@ root verbで-ევは例外的に活用する（15.1.4）
 - ღმერთი (god) -> გააღმეოთებს (deify), გაღმერთდება
 - ინტერესი -> დააინტერესებს (to interest s.o.), დაინტერესდება (become interested)
 - კაცი: man
-
 - ფანჯარა: window
 - თვე: month
 - მღვდელი: priest
