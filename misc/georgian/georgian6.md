@@ -138,7 +138,7 @@ Optative
 - preradical vowelのიをეに変え、h-seriesのマーカーをつける
   - ეの直前のため、３人称マーカーは無しであり、直接目的語のマーカーと同形である
     - გაიგზავნება -> გაეგზავნება (be sent to s.o.)
-    - დაიმალიბა -> დაემალება (hide oneself from s.o.)
+    - დაიმალება -> დაემალება (hide oneself from s.o.)
 
 ### Relative form of 2nd conjugation (დ系)
 
@@ -232,7 +232,7 @@ Optative
 | Reflexive pronouns | Singular    | Plural        |
 | ------------------ | ----------- | ------------- |
 | 1st.               | ჩემი თავი   | ჩვენი თავი    |
-| 2nd.               | შენი თავი   | თქვინე თავი   |
+| 2nd.               | შენი თავი   | თქვენი თავი   |
 | 3rd.               | თავისი თავი | თავიანთი თავი |
 
 - 例：
@@ -273,7 +273,7 @@ Optative
 
 - საქართველო, რომლის დედაქალაქიც თბილისია, საბჭოთა კავშირშია.
   - Georgia, the capital of which is Tbilisi, is in the Soviet Union.
-- ვანომ გადათარგმნა წიგნი, რომლის შესახებაც მოგწეერთ.
+- ვანომ გადათარგმნა წიგნი, რომლის შესახებაც მოგწერეთ.
   - Vano translated the book about which I wrote you all.
 - これらは-ცを省略しても問題ない
 
