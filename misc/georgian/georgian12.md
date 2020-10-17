@@ -312,6 +312,72 @@ preradical vowelは、動詞そのものや、present, future, aorist ...など�
 
 ## სიტყვები
 
+- ამდენი: this much many so much
+- არავინ: no one
+- არაფერი: nothing
+- არსად: nowhere
+- ბომბა: bomb
+- გადასახადი: tax
+- გვირგვინი: crown, wreath, garland
+- გოგონა: little girl
+- გული: heart
+- დაფა: blackboard
+- დედალი: hen, female (of animals)
+- იატაკი: floor 床
+- კედელი: wall
+- კვერცხი: egg
+- ლოზუნგი: slogan
+- მართალი: true
+- მარილი: salt
+- მატჩი: match; game
+- მოლვაწე: (public) figure
+- მუხლი: knee
+- მძიმე: heavy
+- ორთოგრაფია: orthography
+- პანთეონი: Pantheon; cemetery where famous people are buried
+- პატიმარი: prisoner
+- პირველ ყოვლისა: first of all
+- პრინციპა: principle
+- საბეჭდი მანქანა: type writer
+- სანამ: until, before
+- სამიკიტნო: inn, tavern
+- საპატიმრო: prison
+- საუკეთესო: best
+- საფუძველი: basis, base, foundation
+- საწერი: for writing
+- სახე: face, image, form
+- სინათლე: light
+- ტანი: body
+- ფონოგრაფი: phonograph
+- ყავა: coffee
+- შესავალი: entrance
+- შვილი: child (son or daughter)
+- ცეცხლი: fire
+- ხანჯალი: dagger
+- ხორცი: meat
+- ხმადაბალი, ხმადაბლა: soft, softly
+- მო-ი-გ-ებ-ს: win
+- წა-ა-გ-ებ-ს: lose
+- და-დ-ებ-ს, aor. და(ვ)დავი(თ), დადო (or დადვა), perf. დაუდვია: put (down)
+- დევს, fut. იდება, aor. იდო or იდვა, perf. დებულა, rel. ადევს, rel. fut. ედება: be lying (irr. passive of state)
+- ჩამო-კიდ-ებ-ს: hang
+- ალაგია: be arranged (passive of state of განალაგებს)
+- და-ა-ნთ-ებ-ს: light (a fire)
+- და-პატიჟ-ებ-ს: invite
+- გა+რბ-ი-ს fut. გაირბენს: run away
+- გა-რეცხ-ავ-ს: wash sthg.
+- გა-ტეხ-ს: break (into pieces)
+- მო-ტეხ-ს: break (off)
+- გა-ტყდ-ებ-ა: 2nd conj. of გატეცს perf. abs. გამტყდარა perf. rel. გასტეხია
+- გადა-ა-ფარ-ებ-ს: spread (e.g., tablecloth)
+- შე-ყვირ-ებ-ს: shout out
+- და-ყრ-ი-ს: scatter, throw down (d.o. is plural or a collective)
+- ჩა-ი-ცვ-ამ-ს, (passive of state: pres. აცვია, fut. ევმევა,aor.  ეცვა, perf. სცმია): put sthg. on, dress o.s.
+- ჩა-(ჰ)-ა-ცმევ-ს aor. irr. ჩა(ვ)აცვი(თ), ჩააცვა: put sthg. on s.o.
+- გა-ი-ჭრ-ი-ს: cut one's (e.g., finger)
+- მი-უ-ჯდ-ებ-ა: sit near (9.1.2)
+- მიუჯდება მაგიდას: sit down at the table
+
 ## სავარჯისოები
 
 ## კითხვა
