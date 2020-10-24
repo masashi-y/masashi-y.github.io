@@ -6,6 +6,7 @@ title: Masashi Yoshikawa
 # Masashi Yoshikawa
 * Assistant professor of [TCPAI reserch center](http://tcpai.tohoku.ac.jp/en/) at [Tohoku University](http://www.tohoku.ac.jp/en/)
 * Visiting Researcher of [Natural Language Understanding Team](https://www.riken.jp/en/research/labs/aip/goalorient_tech/nat_lang_understand/) at [RIKEN Center for AIP](https://www.riken.jp/en/research/labs/aip/)
+
 I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp/).
 
 ## Publications
