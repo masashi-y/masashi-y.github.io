@@ -4,7 +4,8 @@ title: Masashi Yoshikawa
 ---
 
 # Masashi Yoshikawa
-I have recently moved to [TCPAI reserch center](http://tcpai.tohoku.ac.jp/en/) at [Tohoku University](http://www.tohoku.ac.jp/en/).  
+* Assistant professor of [TCPAI reserch center](http://tcpai.tohoku.ac.jp/en/) at [Tohoku University](http://www.tohoku.ac.jp/en/)
+* Visiting Researcher of [Natural Language Understanding Team](https://www.riken.jp/en/research/labs/aip/goalorient_tech/nat_lang_understand/) at [RIKEN Center for AIP](https://www.riken.jp/en/research/labs/aip/)
 I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp/).
 
 ## Publications
@@ -32,6 +33,9 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
   [[pdf](./papers/dsfl_emnlp2016.pdf)][[reviews](./reviews/emnlp2016.txt)]
 
 ### Unrefereed
+
+* 「スパン埋め込みと最適輸送に基づく非構成的な句に頑健な文類似性尺度」  
+  神戸 隆志, 横井 祥, <u>吉川 将司</u>, NLP若手の会第15回シンポジウム  
 * 「テキスト情報と画像情報を組み合わせた論理推論システムの構築」  
   鈴木莉子, <u>吉川将司</u>, 谷中瞳, 峯島宏次, 戸次大介, 人工知能学会第33回全国大会(<font color="Red">優秀賞(口頭発表部門)</font>) [[pdf](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_2L1J903/_article/-char/ja/)]  
 * 「係り受け木を用いたツリーバンク自動生成によるCCG解析分野適応」  
@@ -72,13 +76,16 @@ See [my github repository](https://github.com/masashi-y).
 * Sep. 2016: Intern at STAIR Lab, Chiba Institute of Technology
 * Apr. - Jun. 2017, Oct. 2017 - Jul. 2019: Affiliated Researcher at Center of Simulation Sciences in Ochanomizu University
 
+## Research Grant
+*  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2) [[proposal](./misc/03_dc_naiyo.pdf)]
+*  Aug. 2018 - Mar. 2019: AIP Challenge Research Funding
+*  Sep. 2020 - Mar. 2022: Japan Society for the Promotion of Science (JSPS) Grant-in-Aid for Research Activity start-up (科研費スタートアップ支援) [20K23314](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20K23314/)
+
 ## Awards and Funding
 *  2012: Kuwait Goverment Scholarship
 *  Mar. 2017: Exellence Award in 23rd Annual Meeting of NLP
 *  Jun. 2017: NAIST Excellent Student Scholarship
 *  Jun. 2017: JASSO Scholarship Full Exemption from Refund
-*  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2) [[proposal](./misc/03_dc_naiyo.pdf)]
-*  Aug. 2018 - Mar. 2019: AIP Challenge Research Funding
 *  Mar. 2019: Young Researcher Encouragement Award in 25th Annual Meeting of NLP
 *  Mar. 2020: NAIST Excellent Student Award
 
@@ -96,4 +103,4 @@ See [my github repository](https://github.com/masashi-y).
 * I type in Dvorak key conf and like Vim :)
 
 ## Contact
-masashi.yoshikawa.d8 [at] tohoku.ac.jp
+yoshikawa [at] tohoku.ac.jp
