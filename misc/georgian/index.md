@@ -1,0 +1,14 @@
+- [Lesson2](georgian1.md): 1st conjugation
+- [Lesson3](georgian2.md): 2nd conjugation
+- [Lesson4](georgian3.md): conjunctive, plural, extended case form, postpositions, სვლა
+- [Lesson5](georgian4.md): aorist, ergative, demonstrative pronouns and adjectives, stylistically marked plural
+- [Lesson6](georgian5.md): optative, imperative, negation, vocative, numerals (1)
+- [Lesson7](georgian6.md): object markers, indirect object markers, absolute and relative verbs, reflexive possessives, relative and interrogative pronouns
+- [Lesson8](georgian7.md): 3rd conjugation, თქმა, indirect speech, derivative declension
+- [Lesson9](georgian8.md): irregularities in conjugation, personal pronouns, comparatives
+- [Lesson10](georgian9.md): perfect series of 1st/3rd conjugation, numerals (2)
+- [Lesson11](georgian10.md): perfect particle, perfect series of 2nd conjugation, periphrastic passive, causative of 1st conj. verbs, participles
+- [Lesson12](georgian11.md): 4th conjugation
+- [Lesson13](georgian12.md): reflexive indirect object, superessive, passive of state, resultative, review (functions of preradical vowels)
+- [Lesson14](georgian13.md): semantic peculiarities
+- [Lesson15](georgian14.md): formal peculiarities
