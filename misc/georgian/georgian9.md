@@ -94,14 +94,12 @@
 - -ი語尾はつける
 - １人称目的語の場合、ვ- ... -ვარをつける
 - 規範的には、-ავ, -ამ語尾の動詞は、この'be'を直接完了語根につけることになっているが、この語尾を落としたものなどの異なった例も見られる
-
-- მიქიხარ(თ): I have praised you (all)
-- გიქივარ(თ): You have praised me (us)
-- ვუქივარ(თ): He has praised me (us)
-- უქიხარ(თ): He has praised you (all)
-- გვიქიხარ(თ): we have praised you (all)
-- გიქივართ: You all praised me (us)
-
+  - მიქიხარ(თ): I have praised you (all)
+  - გიქივარ(თ): You have praised me (us)
+  - ვუქივარ(თ): He has praised me (us)
+  - უქიხარ(თ): He has praised you (all)
+  - გვიქიხარ(თ): we have praised you (all)
+  - გიქივართ: You all praised me (us)
 - 主語が３人称複数で目的語が１，２人称単数の場合、複数の語尾-თをつけない
   - ვუკივარ: They (or he) have praised me
   - უკიხარ: They (or he) have praised you
@@ -273,16 +271,13 @@ say, tellに相当する動詞もabsolute/relativeの違いを失う。形は例
 38. ოცდათვრამეტი
 39. ოცდაცხრამეტი
 40. ორმოცი = (2 * 20)
-
 50. ორმოცდაათი
-
 60. სამოცი = (სამ-მ-ოც-ი)
-
 70. სამოცდაათი
-
 80. ოთხმოცი
-
 90. ოთხმოცდაათი
+
+続き
 
 - 100: ასი, 200: ორასი, 300: სამასი, ...
 - 1000: ათასი, 2000: ორი ათაასი, 3000: სამი ათასი, ...
