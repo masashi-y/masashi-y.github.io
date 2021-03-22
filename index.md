@@ -34,7 +34,12 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
   [[pdf](./papers/dsfl_emnlp2016.pdf)][[reviews](./reviews/emnlp2016.txt)]
 
 ### Unrefereed
-
+* 「離散記号処理に対する近似的な微分構造の考察と数量推論を要する文章読解問題への応用」  
+  <u>吉川将司</u>, 乾健太郎 言語処理学会第27回年次大会  
+* 「オンラインコミュニティにおける単語頻度の通時的変化を利用した新語リストの獲得」  
+  阿部香央莉, 松田耕史, <u>吉川将司</u>, 乾健太郎 言語処理学会第27回年次大会  
+* 「事例ベース依存構造解析のための依存関係表現学習」  
+  大内啓樹, 鈴木潤, 小林颯介, 横井祥, 栗林樹生, <u>吉川将司</u>, 乾健太郎 言語処理学会第27回年次大会  
 * 「スパン埋め込みと最適輸送に基づく非構成的な句に頑健な文類似性尺度」  
   神戸 隆志, 横井 祥, <u>吉川 将司</u>, NLP若手の会第15回シンポジウム  
 * 「テキスト情報と画像情報を組み合わせた論理推論システムの構築」  
@@ -58,6 +63,7 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
 
 ### Talk
 
+* 「深層学習とシンボリックな推論を統合する基礎技術の開発」, 東北大学 タフ･サイバーフィジカルAI研究センターシンポジウム (2021/3/8)
 * 「理論言語学に基づいた自然言語処理システム」, MiCS (2019/9/23) [[pdf](slides/mics_2019.pdf)] [[keynote](slides/mics_2019.key)]
 * 「深層学習とA\*アルゴリズムによる高速なCCG解析」, TokyoCL (2018/9/28) [[slide](slides/tokyo_cl.pdf)]
 
