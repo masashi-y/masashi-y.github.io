@@ -17,6 +17,8 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
 
 ### Refereed
 
+* _Instance-Based Neural Dependency Parsing_, Hiroki Ouchi, Jun Suzuki, Sosuke Kobayashi, Sho Yokoi, Tatsuki Kuribayashi, <u>Masashi Yoshikawa</u>, Kentaro Inui, TACL-2021,
+[[arXiv](https://arxiv.org/abs/2109.13497)]
 * _Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation_, <u>Masashi Yoshikawa</u>, Hiroshi Noji, Koji Mineshima and Daisuke Bekki, ACL-2019, [[pdf](./papers/ccg_acl2019.pdf)][[code](https://github.com/masashi-y/ud2ccg)][[slides(google)](https://docs.google.com/presentation/d/1Ip1h0C6yTGzE2MjpMVvFCcusdIv-L_Mmqnk_10cNXSU/edit?usp=sharing)][[reviews](./reviews/acl2019.txt)]
 * _Building a Logical Inference System for Visual-Textual Entailment_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, ACL-SRW 2019, [[pdf](./papers/vis_acl2019srw.pdf)]
 * _Towards building a logical inference system for image retrieval_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, Workshop on Shortcomings in Vision and Language (SiVL), NAACL-HLT2019 (Extended abstract)
@@ -88,6 +90,8 @@ See [my github repository](https://github.com/masashi-y).
 * Apr. - Jun. 2017, Oct. 2017 - Jul. 2019: Affiliated Researcher at Center of Simulation Sciences in Ochanomizu University
 
 ## Research Grant
+*  Jul. 2021 - Mar. 2022: TCPAI共同研究プロジェクト 「深層学習における記号処理層の多層化と金融文章解析への応用」, 研究代表者:吉川将司
+*  Jul. 2020 - Mar. 2021: TCPAI共同研究プロジェクト, 「深層学習とシンボリックな推論を統合する基礎技術開発の共同研究」, 研究代表者:吉川将司
 *  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2) [[proposal](./misc/03_dc_naiyo.pdf)]
 *  Aug. 2018 - Mar. 2019: AIP Challenge Research Funding
 *  Sep. 2020 - Mar. 2022: Japan Society for the Promotion of Science (JSPS) Grant-in-Aid for Research Activity start-up (科研費スタートアップ支援) [20K23314](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20K23314/)
