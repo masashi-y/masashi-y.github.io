@@ -12,13 +12,12 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
 ## Publications
 
 ### Journal
+* _Instance-Based Neural Dependency Parsing_, Hiroki Ouchi, Jun Suzuki, Sosuke Kobayashi, Sho Yokoi, Tatsuki Kuribayashi, <u>Masashi Yoshikawa</u>, Kentaro Inui, TACL-2021, [[arXiv](https://arxiv.org/abs/2109.13497)]
 * _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
   <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, 自然言語処理(Journal of natural language processing), Vol.26 No.1 [[link](https://www.jstage.jst.go.jp/article/jnlp/26/1/26_83/_article/-char/en)]
 
 ### Refereed
 
-* _Instance-Based Neural Dependency Parsing_, Hiroki Ouchi, Jun Suzuki, Sosuke Kobayashi, Sho Yokoi, Tatsuki Kuribayashi, <u>Masashi Yoshikawa</u>, Kentaro Inui, TACL-2021,
-[[arXiv](https://arxiv.org/abs/2109.13497)]
 * _Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation_, <u>Masashi Yoshikawa</u>, Hiroshi Noji, Koji Mineshima and Daisuke Bekki, ACL-2019, [[pdf](./papers/ccg_acl2019.pdf)][[code](https://github.com/masashi-y/ud2ccg)][[slides(google)](https://docs.google.com/presentation/d/1Ip1h0C6yTGzE2MjpMVvFCcusdIv-L_Mmqnk_10cNXSU/edit?usp=sharing)][[reviews](./reviews/acl2019.txt)]
 * _Building a Logical Inference System for Visual-Textual Entailment_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, ACL-SRW 2019, [[pdf](./papers/vis_acl2019srw.pdf)]
 * _Towards building a logical inference system for image retrieval_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, Workshop on Shortcomings in Vision and Language (SiVL), NAACL-HLT2019 (Extended abstract)
@@ -36,6 +35,12 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
   [[pdf](./papers/dsfl_emnlp2016.pdf)][[reviews](./reviews/emnlp2016.txt)]
 
 ### Unrefereed
+* 「End-to-End 学習可能な記号処理層の検討と数量推論への応用における課題の分析」  
+  <u>吉川将司</u>, Benjamin Heinzerling, 乾健太郎 言語処理学会第28回年次大会  
+* 「多段の数量推論タスクに対する適応的なモデルの振る舞いの検証」  
+  青木洋一, 工藤慧音, Ana Brassard, 栗林樹生, <u>吉川将司</u>, 乾健太郎 言語処理学会第28回年次大会  
+* 「四則演算を用いた Transformer の再帰的構造把握能力の調査」  
+  松本悠太, <u>吉川将司</u>, Benjamin Heinzerling, 乾健太郎 言語処理学会第28回年次大会  
 * 「数量推論モデルに対する人工データを活用した表層的な手がかりに頑健な評価法の検討」  
   工藤慧音, 青木洋一, <u>吉川将司</u>, 乾健太郎 NLP若手の会第16回シンポジウム  
 * 「大規模言語モデルの語彙的関係知識推定における日英間の比較調査」  
@@ -69,6 +74,7 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
 
 ### Talk
 
+*  「(秘密)」 AIP Open Seminar #40 (2021/9/1)
 * 「深層学習とシンボリックな推論を統合する基礎技術の開発」, 東北大学 タフ･サイバーフィジカルAI研究センターシンポジウム (2021/3/8)
 * 「理論言語学に基づいた自然言語処理システム」, MiCS (2019/9/23) [[pdf](slides/mics_2019.pdf)] [[keynote](slides/mics_2019.key)]
 * 「深層学習とA\*アルゴリズムによる高速なCCG解析」, TokyoCL (2018/9/28) [[slide](slides/tokyo_cl.pdf)]
@@ -90,11 +96,12 @@ See [my github repository](https://github.com/masashi-y).
 * Apr. - Jun. 2017, Oct. 2017 - Jul. 2019: Affiliated Researcher at Center of Simulation Sciences in Ochanomizu University
 
 ## Research Grant
+*  Apr. 2021 - Mar. 2024: Japan Society for the Promotion of Science (JSPS) Grant-in-Aid for Scientific Research (C) 「ハイブリッドCGパーザの開発」, 研究代表者:窪田 悠介 (分担)[21K00541](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-21K00541/)
 *  Jul. 2021 - Mar. 2022: TCPAI共同研究プロジェクト 「深層学習における記号処理層の多層化と金融文章解析への応用」, 研究代表者:吉川将司
-*  Jul. 2020 - Mar. 2021: TCPAI共同研究プロジェクト, 「深層学習とシンボリックな推論を統合する基礎技術開発の共同研究」, 研究代表者:吉川将司
+*  Jul. 2020 - Mar. 2021: TCPAI共同研究プロジェクト 「深層学習とシンボリックな推論を統合する基礎技術開発の共同研究」, 研究代表者:吉川将司
+*  Sep. 2020 - Mar. 2022: JSPS Grant-in-Aid for Research Activity start-up (科研費スタートアップ支援) [20K23314](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20K23314/)
 *  Apr. 2018 - Mar. 2020: Research Fellowship of Japan Society for the Promotion of Science for Young Scientists (JSPS DC2) [[proposal](./misc/03_dc_naiyo.pdf)]
 *  Aug. 2018 - Mar. 2019: AIP Challenge Research Funding
-*  Sep. 2020 - Mar. 2022: Japan Society for the Promotion of Science (JSPS) Grant-in-Aid for Research Activity start-up (科研費スタートアップ支援) [20K23314](https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20K23314/)
 
 ## Awards and Funding
 *  2012: Kuwait Goverment Scholarship
