@@ -40,7 +40,7 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
 * 「多段の数量推論タスクに対する適応的なモデルの振る舞いの検証」  
   青木洋一, 工藤慧音, Ana Brassard, 栗林樹生, <u>吉川将司</u>, 乾健太郎 言語処理学会第28回年次大会  
 * 「四則演算を用いた Transformer の再帰的構造把握能力の調査」  
-  松本悠太, <u>吉川将司</u>, Benjamin Heinzerling, 乾健太郎 言語処理学会第28回年次大会  
+  松本悠太, <u>吉川将司</u>, Benjamin Heinzerling, 乾健太郎 言語処理学会第28回年次大会 (<font color="Red">スポンサー賞</font>)  
 * 「数量推論モデルに対する人工データを活用した表層的な手がかりに頑健な評価法の検討」  
   工藤慧音, 青木洋一, <u>吉川将司</u>, 乾健太郎 NLP若手の会第16回シンポジウム  
 * 「大規模言語モデルの語彙的関係知識推定における日英間の比較調査」  
@@ -54,9 +54,9 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
 * 「スパン埋め込みと最適輸送に基づく非構成的な句に頑健な文類似性尺度」  
   神戸 隆志, 横井 祥, <u>吉川 将司</u>, NLP若手の会第15回シンポジウム  
 * 「テキスト情報と画像情報を組み合わせた論理推論システムの構築」  
-  鈴木莉子, <u>吉川将司</u>, 谷中瞳, 峯島宏次, 戸次大介, 人工知能学会第33回全国大会(<font color="Red">優秀賞(口頭発表部門)</font>) [[pdf](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_2L1J903/_article/-char/ja/)]  
+  鈴木莉子, <u>吉川将司</u>, 谷中瞳, 峯島宏次, 戸次大介, 人工知能学会第33回全国大会 (<font color="Red">優秀賞(口頭発表部門)</font>) [[pdf](https://www.jstage.jst.go.jp/article/pjsai/JSAI2019/0/JSAI2019_2L1J903/_article/-char/ja/)]  
 * 「係り受け木を用いたツリーバンク自動生成によるCCG解析分野適応」  
-  <u>吉川将司</u>, 能地宏, 峯島宏次, 戸次大介 言語処理学会第24回年次大会(<font color="Red">若手奨励賞</font>) [[pdf](./papers/ccg_nlp2019.pdf)]  
+  <u>吉川将司</u>, 能地宏, 峯島宏次, 戸次大介 言語処理学会第24回年次大会 (<font color="Red">若手奨励賞</font>) [[pdf](./papers/ccg_nlp2019.pdf)]  
 * 「安価な統語情報からの変換モデルの学習によるCCG解析ドメイン適応」  
   <u>吉川将司</u>, 能地宏, 峯島宏次, 戸次大介 NLP若手の会第13回シンポジウム  
 * 「形式意味論に基づくニューラル文生成」  
@@ -78,6 +78,10 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
 * 「深層学習とシンボリックな推論を統合する基礎技術の開発」, 東北大学 タフ･サイバーフィジカルAI研究センターシンポジウム (2021/3/8)
 * 「理論言語学に基づいた自然言語処理システム」, MiCS (2019/9/23) [[pdf](slides/mics_2019.pdf)] [[keynote](slides/mics_2019.key)]
 * 「深層学習とA\*アルゴリズムによる高速なCCG解析」, TokyoCL (2018/9/28) [[slide](slides/tokyo_cl.pdf)]
+
+### Activities
+
+* Sep. 2021 - Sep. 2023: [言語処理学会](https://anlp.jp/guide/index.html) 会誌編集委員
 
 ## Software
 See [my github repository](https://github.com/masashi-y).
