@@ -4,10 +4,7 @@ title: Masashi Yoshikawa
 ---
 
 # Masashi Yoshikawa
-* Assistant professor of [TCPAI reserch center](http://tcpai.tohoku.ac.jp/en/) at [Tohoku University](http://www.tohoku.ac.jp/en/)
-* Visiting Researcher of [Natural Language Understanding Team](https://www.riken.jp/en/research/labs/aip/goalorient_tech/nat_lang_understand/) at [RIKEN Center for AIP](https://www.riken.jp/en/research/labs/aip/)
-
-I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp/).
+* Machine learning engineer at Apple
 
 ## Publications
 
@@ -18,6 +15,12 @@ I am also a member of [Inui Suzuki laboratory](https://www.nlp.ecei.tohoku.ac.jp
 
 ### Refereed
 
+* _Do Deep Neural Networks Capture Compositionality in Arithmetic Reasoning?_, Keito Kudo, Yoichi Aoki, Tatsuki Kuribayashi, Ana Brassard, <u>Masashi Yoshikawa</u>, Keisuke Sakaguchi and Kentaro Inui, EACL-2023
+* _Empirical Investigation of Neural Symbolic Reasoning Strategies_, Yoichi Aoki, Keito Kudo, Tatsuki Kuribayashi, Ana Brassard, <u>Masashi Yoshikawa</u>, Keisuke Sakaguchi and Kentaro Inui, EACL-2023 Findings
+* _Tracing and Manipulating Intermediate Values in Neural Math Problem Solvers_, Yuta Matsumoto, Benjamin Heinzerling, <u>Masashi Yoshikawa</u> and Kentaro Inui, MathNLP 2022
+* _Tracing and Manipulating Intermediate Results in Neural Math Problem Solvers_, Yuta Matsumoto, Benjamin Heinzerling, <u>Masashi Yoshikawa</u> and Kentaro Inui, BlackboxNLP 2022
+* _Empirical Investigation of Neural Symbolic Reasoning Strategies_, Yoichi Aoki, Keito Kudo, Tatsuki Kuribayashi, Ana Brassard, <u>Masashi Yoshikawa</u>, Keisuke Sakaguchi and Kentaro Inui, AACL-IJCNLP SRW 2022, Non-archival
+* _Tracing and Manipulating Intermediate Results in Neural Math Problem Solvers_, Yuta Matsumoto, Benjamin Heinzerling, <u>Masashi Yoshikawa</u> and Kentaro Inui, AACL-IJCNLP SRW 2022
 * _Automatic Generation of High Quality CCGbanks for Parser Domain Adaptation_, <u>Masashi Yoshikawa</u>, Hiroshi Noji, Koji Mineshima and Daisuke Bekki, ACL-2019, [[pdf](./papers/ccg_acl2019.pdf)][[code](https://github.com/masashi-y/ud2ccg)][[slides(google)](https://docs.google.com/presentation/d/1Ip1h0C6yTGzE2MjpMVvFCcusdIv-L_Mmqnk_10cNXSU/edit?usp=sharing)][[reviews](./reviews/acl2019.txt)]
 * _Building a Logical Inference System for Visual-Textual Entailment_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, ACL-SRW 2019, [[pdf](./papers/vis_acl2019srw.pdf)]
 * _Towards building a logical inference system for image retrieval_, Riko Suzuki, Hitomi Yanaka, <u>Masashi Yoshikawa</u>, Koji Mineshima and Daisuke Bekki, Workshop on Shortcomings in Vision and Language (SiVL), NAACL-HLT2019 (Extended abstract)
@@ -98,6 +101,8 @@ See [my github repository](https://github.com/masashi-y).
 * Sep. 2015: Intern at NTT Comunication Science Laboratory
 * Sep. 2016: Intern at STAIR Lab, Chiba Institute of Technology
 * Apr. - Jun. 2017, Oct. 2017 - Jul. 2019: Affiliated Researcher at Center of Simulation Sciences in Ochanomizu University
+* Apr. 2020 - Jun. 2022: Assistant Professor at Tohoku University TCPAI Research center
+* July. 2022 - now: Machine learning engineer at Apple
 
 ## Research Grant
 *  Apr. 2021 - Mar. 2024: Japan Society for the Promotion of Science (JSPS) Grant-in-Aid for Scientific Research (C) 「ハイブリッドCGパーザの開発」, 研究代表者:窪田 悠介 (分担)[21K00541](https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-21K00541/)
