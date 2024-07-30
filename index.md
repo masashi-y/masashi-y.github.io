@@ -142,4 +142,4 @@ See [my github repository](https://github.com/masashi-y).
 * I type in Dvorak key conf and like Vim :)
 
 ## Contact
-yoshikawa [at] tohoku.ac.jp
+masashi.yoshikawa.d8 [at] alumni.tohoku.ac.jp
