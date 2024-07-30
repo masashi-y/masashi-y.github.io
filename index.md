@@ -4,14 +4,16 @@ title: Masashi Yoshikawa
 ---
 
 # Masashi Yoshikawa
-* Machine learning engineer at Apple
+Machine learning engineer at Apple
 
 ## Publications
 
 ### Journal
+* 「ニューラル数式ソルバーにおける途中結果の追跡と操作」松本 悠太, Benjamin Heinzerling, <u>吉川 将司</u>, 乾 健太郎, 自然言語処理 (Journal of natural language processing), Vol 30, No. 4
+* 「大学・大学院におけるレポート採点支援システムの開発」 佐々木健太, 鈴木健一, 君島朋子, <u>吉川将司</u>, 乾健太郎, 情報処理学会論文誌教育とコンピュータ (TCE), Vol.8, No.3
 * _Instance-Based Neural Dependency Parsing_, Hiroki Ouchi, Jun Suzuki, Sosuke Kobayashi, Sho Yokoi, Tatsuki Kuribayashi, <u>Masashi Yoshikawa</u>, Kentaro Inui, TACL-2021, [[arXiv](https://arxiv.org/abs/2109.13497)]
 * _A\* CCG Parsing with a Supertag and Dependency Factored Model_  
-  <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, 自然言語処理(Journal of natural language processing), Vol.26 No.1 [[link](https://www.jstage.jst.go.jp/article/jnlp/26/1/26_83/_article/-char/en)]
+  <u>Masashi Yoshikawa</u>, Hiroshi Noji, and Yuji Matsumoto, 自然言語処理 (Journal of natural language processing), Vol.26 No.1 [[link](https://www.jstage.jst.go.jp/article/jnlp/26/1/26_83/_article/-char/en)]
 
 ### Refereed
 
@@ -38,6 +40,12 @@ title: Masashi Yoshikawa
   [[pdf](./papers/dsfl_emnlp2016.pdf)][[reviews](./reviews/emnlp2016.txt)]
 
 ### Unrefereed
+* 「ニューラル記号推論における推論過程の教示方法」  
+  青木洋一, 工藤慧音, Ana Brassard, 栗林樹生, <u>吉川将司</u>, 坂口慶祐, 乾健太郎, 言語処理学会第29回年次大会
+* 「算術問題におけるニューラルモデルの構成的推論能力」  
+  工藤慧音, 青木洋一, 栗林樹生, Ana Brassard, <u>吉川将司</u>, 坂口慶祐, 乾健太郎, 言語処理学会第29回年次大会
+* 「ニューラル数式ソルバーにおける途中結果の追跡と操作」  
+  松本悠太, Benjamin Heinzerling, <u>吉川将司</u>, 乾健太郎, 言語処理学会第29回年次大会 (<font color="Red">委員特別賞</font>)
 * 「End-to-End 学習可能な記号処理層の検討と数量推論への応用における課題の分析」  
   <u>吉川将司</u>, Benjamin Heinzerling, 乾健太郎 言語処理学会第28回年次大会  
 * 「多段の数量推論タスクに対する適応的なモデルの振る舞いの検証」  
